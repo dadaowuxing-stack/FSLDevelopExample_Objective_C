@@ -5,4 +5,40 @@ target 'FSLDevelopExample' do
     pod 'JSONModel'
     pod 'Masonry'
     pod 'SocketRocket'
+    pod 'MJRefresh'
+    # 图片缓存
+    pod 'SDWebImage'
+    # 字典转模型 该项目使用YYModel
+    pod 'MJExtension'                       , '3.0.13'
+    # 字典转模型
+    pod 'YYModel'
+    # 高性能的 iOS 异步图像加载框架。
+    pod 'YYWebImage'
+    # YYKit 的一套分类
+    pod 'YYCategories'                      , '1.0.4'
+    # 消息链
+    # pod 'ReactiveCocoa'                     ,'2.5'
+    # 适配Xcode9.0 iOS 11
+    pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+    # FaceBook KVO（优雅的代替系统原生的KVO）
+    pod 'KVOController'
+    # 颜色分类
+    pod 'Colours'
+    # pop动画
+    pod 'pop'
+    # 键盘管理
+    pod 'IQKeyboardManager'                 , '5.0.2'
+    # 侧滑手势
+    pod 'FDFullscreenPopGesture'            , '1.1'
+    # 钥匙串存储
+    pod 'SAMKeychain'                       , '1.5.2'
+    # 加密
+    pod 'CocoaSecurity'                     , '1.2.4'
+    pod 'ZYCornerRadius'                    , '1.0.2'
+    #FPS检测
+    pod 'JPFPSStatus'
+    # 环形进度条
+    pod 'DACircularProgress'                , '2.3.1'
+    # UI block
+    pod 'BlocksKit'                         , '2.2.5'
 end
