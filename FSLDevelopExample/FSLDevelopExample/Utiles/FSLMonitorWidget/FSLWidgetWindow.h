@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MMonitorBaseView.h"
+#import "FSLMonitorBaseView.h"
 
-@interface MWidgetWindow : UIWindow
+@interface FSLWidgetWindow : UIWindow
 
 + (void)showOrHide;
 

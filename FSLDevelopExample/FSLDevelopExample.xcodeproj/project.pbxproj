@@ -14,6 +14,19 @@
 		B377312722A11AC300E288EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B377312522A11AC300E288EF /* LaunchScreen.storyboard */; };
 		B377312A22A11AC300E288EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B377312922A11AC300E288EF /* main.m */; };
 		B377313722A11ADE00E288EF /* FSLWidgetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B377313422A11ADE00E288EF /* FSLWidgetWindow.m */; };
+		B377314622A11EC400E288EF /* FSLWidgetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B377314522A11EC400E288EF /* FSLWidgetDataSource.m */; };
+		B377314922A1211A00E288EF /* FSLWDataSourceCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = B377314822A1211A00E288EF /* FSLWDataSourceCPU.m */; };
+		B377314D22A1229C00E288EF /* FSLWDataSourceMomery.m in Sources */ = {isa = PBXBuildFile; fileRef = B377314C22A1229C00E288EF /* FSLWDataSourceMomery.m */; };
+		B377315022A1234300E288EF /* FSLWDataSourceNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B377314F22A1234300E288EF /* FSLWDataSourceNetwork.m */; };
+		B377315322A125BB00E288EF /* FSLWDataSourceLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B377315222A125BB00E288EF /* FSLWDataSourceLog.m */; };
+		B377316F22A1293D00E288EF /* FSLMonitorChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B377316922A1293D00E288EF /* FSLMonitorChartView.m */; };
+		B377317022A1293D00E288EF /* FSLMonitorLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = B377316A22A1293D00E288EF /* FSLMonitorLogView.m */; };
+		B377317122A1293D00E288EF /* FSLMonitorBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B377316E22A1293D00E288EF /* FSLMonitorBaseView.m */; };
+		B377318322A12F3600E288EF /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B377317422A12F3600E288EF /* UIView+Extend.m */; };
+		B377318522A12F3600E288EF /* UIView+YGCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B377317A22A12F3600E288EF /* UIView+YGCommon.m */; };
+		B377318722A12F3600E288EF /* NSString+PLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B377317F22A12F3600E288EF /* NSString+PLAdd.m */; };
+		B377318822A12F3600E288EF /* NSTimer+MExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B377318022A12F3600E288EF /* NSTimer+MExtension.m */; };
+		B377318922A12F3600E288EF /* NSObject+PLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B377318222A12F3600E288EF /* NSObject+PLExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +42,34 @@
 		B377312922A11AC300E288EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B377313222A11ADE00E288EF /* FSLWidgetWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLWidgetWindow.h; sourceTree = "<group>"; };
 		B377313422A11ADE00E288EF /* FSLWidgetWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLWidgetWindow.m; sourceTree = "<group>"; };
+		B377314422A11EC400E288EF /* FSLWidgetDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLWidgetDataSource.h; sourceTree = "<group>"; };
+		B377314522A11EC400E288EF /* FSLWidgetDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLWidgetDataSource.m; sourceTree = "<group>"; };
+		B377314722A1211A00E288EF /* FSLWDataSourceCPU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLWDataSourceCPU.h; sourceTree = "<group>"; };
+		B377314822A1211A00E288EF /* FSLWDataSourceCPU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLWDataSourceCPU.m; sourceTree = "<group>"; };
+		B377314A22A1226400E288EF /* FSLDataSourceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLDataSourceDelegate.h; sourceTree = "<group>"; };
+		B377314B22A1229C00E288EF /* FSLWDataSourceMomery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLWDataSourceMomery.h; sourceTree = "<group>"; };
+		B377314C22A1229C00E288EF /* FSLWDataSourceMomery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLWDataSourceMomery.m; sourceTree = "<group>"; };
+		B377314E22A1234300E288EF /* FSLWDataSourceNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLWDataSourceNetwork.h; sourceTree = "<group>"; };
+		B377314F22A1234300E288EF /* FSLWDataSourceNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLWDataSourceNetwork.m; sourceTree = "<group>"; };
+		B377315122A125BB00E288EF /* FSLWDataSourceLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLWDataSourceLog.h; sourceTree = "<group>"; };
+		B377315222A125BB00E288EF /* FSLWDataSourceLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLWDataSourceLog.m; sourceTree = "<group>"; };
+		B377316722A128F900E288EF /* Example+prefix+Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example+prefix+Header.pch"; sourceTree = "<group>"; };
+		B377316922A1293D00E288EF /* FSLMonitorChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMonitorChartView.m; sourceTree = "<group>"; };
+		B377316A22A1293D00E288EF /* FSLMonitorLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMonitorLogView.m; sourceTree = "<group>"; };
+		B377316B22A1293D00E288EF /* FSLMonitorBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMonitorBaseView.h; sourceTree = "<group>"; };
+		B377316C22A1293D00E288EF /* FSLMonitorChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMonitorChartView.h; sourceTree = "<group>"; };
+		B377316D22A1293D00E288EF /* FSLMonitorLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMonitorLogView.h; sourceTree = "<group>"; };
+		B377316E22A1293D00E288EF /* FSLMonitorBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMonitorBaseView.m; sourceTree = "<group>"; };
+		B377317422A12F3600E288EF /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		B377317722A12F3600E288EF /* UIView+YGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGCommon.h"; sourceTree = "<group>"; };
+		B377317922A12F3600E288EF /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		B377317A22A12F3600E288EF /* UIView+YGCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGCommon.m"; sourceTree = "<group>"; };
+		B377317D22A12F3600E288EF /* NSTimer+MExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MExtension.h"; sourceTree = "<group>"; };
+		B377317E22A12F3600E288EF /* NSObject+PLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PLExtension.h"; sourceTree = "<group>"; };
+		B377317F22A12F3600E288EF /* NSString+PLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PLAdd.m"; sourceTree = "<group>"; };
+		B377318022A12F3600E288EF /* NSTimer+MExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MExtension.m"; sourceTree = "<group>"; };
+		B377318122A12F3600E288EF /* NSString+PLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PLAdd.h"; sourceTree = "<group>"; };
+		B377318222A12F3600E288EF /* NSObject+PLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PLExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +113,7 @@
 				B377312522A11AC300E288EF /* LaunchScreen.storyboard */,
 				B377312822A11AC300E288EF /* Info.plist */,
 				B377312922A11AC300E288EF /* main.m */,
+				B377316722A128F900E288EF /* Example+prefix+Header.pch */,
 			);
 			path = FSLDevelopExample;
 			sourceTree = "<group>";
@@ -79,6 +121,7 @@
 		B377313022A11ADE00E288EF /* Utiles */ = {
 			isa = PBXGroup;
 			children = (
+				B377317222A12F3600E288EF /* FSLCategory */,
 				B377313122A11ADE00E288EF /* FSLMonitorWidget */,
 			);
 			path = Utiles;
@@ -88,9 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				B377313222A11ADE00E288EF /* FSLWidgetWindow.h */,
-				B377313322A11ADE00E288EF /* Models */,
 				B377313422A11ADE00E288EF /* FSLWidgetWindow.m */,
-				B377313522A11ADE00E288EF /* views */,
+				B377316822A1293D00E288EF /* Views */,
+				B377313322A11ADE00E288EF /* Models */,
 			);
 			path = FSLMonitorWidget;
 			sourceTree = "<group>";
@@ -98,15 +141,19 @@
 		B377313322A11ADE00E288EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B377314422A11EC400E288EF /* FSLWidgetDataSource.h */,
+				B377314522A11EC400E288EF /* FSLWidgetDataSource.m */,
+				B377314722A1211A00E288EF /* FSLWDataSourceCPU.h */,
+				B377314822A1211A00E288EF /* FSLWDataSourceCPU.m */,
+				B377314A22A1226400E288EF /* FSLDataSourceDelegate.h */,
+				B377314B22A1229C00E288EF /* FSLWDataSourceMomery.h */,
+				B377314C22A1229C00E288EF /* FSLWDataSourceMomery.m */,
+				B377314E22A1234300E288EF /* FSLWDataSourceNetwork.h */,
+				B377314F22A1234300E288EF /* FSLWDataSourceNetwork.m */,
+				B377315122A125BB00E288EF /* FSLWDataSourceLog.h */,
+				B377315222A125BB00E288EF /* FSLWDataSourceLog.m */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		B377313522A11ADE00E288EF /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		B377313622A11ADE00E288EF /* Classes */ = {
@@ -114,6 +161,52 @@
 			children = (
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		B377316822A1293D00E288EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B377316922A1293D00E288EF /* FSLMonitorChartView.m */,
+				B377316A22A1293D00E288EF /* FSLMonitorLogView.m */,
+				B377316B22A1293D00E288EF /* FSLMonitorBaseView.h */,
+				B377316C22A1293D00E288EF /* FSLMonitorChartView.h */,
+				B377316D22A1293D00E288EF /* FSLMonitorLogView.h */,
+				B377316E22A1293D00E288EF /* FSLMonitorBaseView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B377317222A12F3600E288EF /* FSLCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B377317322A12F3600E288EF /* UIView+Extend */,
+				B377317C22A12F3600E288EF /* FoundationExtention */,
+			);
+			path = FSLCategory;
+			sourceTree = "<group>";
+		};
+		B377317322A12F3600E288EF /* UIView+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				B377317922A12F3600E288EF /* UIView+Extend.h */,
+				B377317422A12F3600E288EF /* UIView+Extend.m */,
+				B377317722A12F3600E288EF /* UIView+YGCommon.h */,
+				B377317A22A12F3600E288EF /* UIView+YGCommon.m */,
+			);
+			path = "UIView+Extend";
+			sourceTree = "<group>";
+		};
+		B377317C22A12F3600E288EF /* FoundationExtention */ = {
+			isa = PBXGroup;
+			children = (
+				B377317D22A12F3600E288EF /* NSTimer+MExtension.h */,
+				B377317E22A12F3600E288EF /* NSObject+PLExtension.h */,
+				B377317F22A12F3600E288EF /* NSString+PLAdd.m */,
+				B377318022A12F3600E288EF /* NSTimer+MExtension.m */,
+				B377318122A12F3600E288EF /* NSString+PLAdd.h */,
+				B377318222A12F3600E288EF /* NSObject+PLExtension.m */,
+			);
+			path = FoundationExtention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +279,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B377317122A1293D00E288EF /* FSLMonitorBaseView.m in Sources */,
+				B377314D22A1229C00E288EF /* FSLWDataSourceMomery.m in Sources */,
+				B377315022A1234300E288EF /* FSLWDataSourceNetwork.m in Sources */,
+				B377318522A12F3600E288EF /* UIView+YGCommon.m in Sources */,
+				B377318822A12F3600E288EF /* NSTimer+MExtension.m in Sources */,
+				B377318322A12F3600E288EF /* UIView+Extend.m in Sources */,
+				B377315322A125BB00E288EF /* FSLWDataSourceLog.m in Sources */,
 				B377311F22A11AC200E288EF /* ViewController.m in Sources */,
+				B377317022A1293D00E288EF /* FSLMonitorLogView.m in Sources */,
+				B377314922A1211A00E288EF /* FSLWDataSourceCPU.m in Sources */,
+				B377318722A12F3600E288EF /* NSString+PLAdd.m in Sources */,
+				B377314622A11EC400E288EF /* FSLWidgetDataSource.m in Sources */,
 				B377313722A11ADE00E288EF /* FSLWidgetWindow.m in Sources */,
+				B377316F22A1293D00E288EF /* FSLMonitorChartView.m in Sources */,
+				B377318922A12F3600E288EF /* NSObject+PLExtension.m in Sources */,
 				B377312A22A11AC300E288EF /* main.m in Sources */,
 				B377311C22A11AC200E288EF /* AppDelegate.m in Sources */,
 			);
@@ -333,7 +439,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9QNPWJA7V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/FSLDevelopExample/Example+prefix+Header.pch";
 				INFOPLIST_FILE = FSLDevelopExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,7 +459,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9QNPWJA7V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/FSLDevelopExample/Example+prefix+Header.pch";
 				INFOPLIST_FILE = FSLDevelopExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

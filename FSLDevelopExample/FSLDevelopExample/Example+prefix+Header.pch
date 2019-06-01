@@ -1,0 +1,24 @@
+//
+//  Example+prefix+Header.pch
+//  FSLDevelopExample
+//
+//  Created by Fingal Liu on 2019/5/31.
+//  Copyright © 2019 Fingal Liu. All rights reserved.
+//
+
+#ifndef Example_prefix_Header_pch
+#define Example_prefix_Header_pch
+
+#define M__LOG__NOTIFICATION            @"M__LOG__NOTIFICATION"//选中地址返回到订单结算界面并传递数据
+
+// 到主线程
+#define m_dispatch_on_main_thread_safe(block) if (![NSThread isMainThread]) dispatch_async(dispatch_get_main_queue(), (block)); else if(block) block();
+
+//打印
+#if MDEV
+#define FSLLog(...)   NSLog(__VA_ARGS__); [[NSNotificationCenter defaultCenter] postNotificationName:M__LOG__NOTIFICATION object:[NSString stringWithFormat:__VA_ARGS__]];
+#else
+#define FSLLog(...)
+#endif
+
+#endif /* Example_prefix_Header_pch */
