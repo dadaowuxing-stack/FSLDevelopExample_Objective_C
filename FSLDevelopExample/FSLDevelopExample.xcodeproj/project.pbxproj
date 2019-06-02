@@ -8,6 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		782D8DD8A68DD5FE08EBF058 /* libPods-FSLDevelopExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D9DABF80E25D56448DB558 /* libPods-FSLDevelopExample.a */; };
+		B31E080522A3C1E1009A69A4 /* FSLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E07EE22A3C1E1009A69A4 /* FSLLoginViewController.m */; };
+		B31E080622A3C1E1009A69A4 /* FSLMobileLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E07F122A3C1E1009A69A4 /* FSLMobileLoginViewController.m */; };
+		B31E080722A3C1E1009A69A4 /* FSLBootLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E07F222A3C1E1009A69A4 /* FSLBootLoginViewController.m */; };
+		B31E080822A3C1E1009A69A4 /* FSLCommitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E07F522A3C1E1009A69A4 /* FSLCommitViewController.m */; };
+		B31E080922A3C1E1009A69A4 /* FSLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E07F622A3C1E1009A69A4 /* FSLRegisterViewController.m */; };
+		B31E080A22A3C1E1009A69A4 /* FSLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E07F722A3C1E1009A69A4 /* FSLLoginViewController.xib */; };
+		B31E080B22A3C1E1009A69A4 /* FSLCommitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E07F822A3C1E1009A69A4 /* FSLCommitViewController.xib */; };
+		B31E080C22A3C1E1009A69A4 /* FSLZoneCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E07F922A3C1E1009A69A4 /* FSLZoneCodeViewController.m */; };
+		B31E080D22A3C1E1009A69A4 /* FSLLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E07FA22A3C1E1009A69A4 /* FSLLanguageViewController.m */; };
+		B31E080E22A3C1E1009A69A4 /* FSLRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E07FF22A3C1E1009A69A4 /* FSLRegisterViewController.xib */; };
+		B31E080F22A3C1E1009A69A4 /* FSLLoginBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E080022A3C1E1009A69A4 /* FSLLoginBaseViewController.m */; };
+		B31E081022A3C1E1009A69A4 /* FSLAccountLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E080122A3C1E1009A69A4 /* FSLAccountLoginViewController.m */; };
+		B31E081122A3C1E1009A69A4 /* FSLBootLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E080222A3C1E1009A69A4 /* FSLBootLoginViewController.xib */; };
+		B31E081222A3C1E1009A69A4 /* FSLMobileLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E080422A3C1E1009A69A4 /* FSLMobileLoginViewController.xib */; };
+		B31E081622A3C7DE009A69A4 /* UISearchBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E081522A3C7DE009A69A4 /* UISearchBar+Extension.m */; };
+		B31E082422A3C891009A69A4 /* FSLLoginCaptchaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E081822A3C891009A69A4 /* FSLLoginCaptchaView.xib */; };
+		B31E082522A3C891009A69A4 /* FSLAccountLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E081922A3C891009A69A4 /* FSLAccountLoginView.xib */; };
+		B31E082622A3C891009A69A4 /* FSLAccountLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E081A22A3C891009A69A4 /* FSLAccountLoginView.m */; };
+		B31E082722A3C891009A69A4 /* FSLMobileLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E081B22A3C891009A69A4 /* FSLMobileLoginView.xib */; };
+		B31E082822A3C891009A69A4 /* FSLMobileLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E081C22A3C891009A69A4 /* FSLMobileLoginView.m */; };
+		B31E082922A3C891009A69A4 /* FSLLoginPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E081E22A3C891009A69A4 /* FSLLoginPasswordView.m */; };
+		B31E082A22A3C891009A69A4 /* FSLLoginPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31E082022A3C891009A69A4 /* FSLLoginPasswordView.xib */; };
+		B31E082B22A3C891009A69A4 /* FSLLoginCaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E082222A3C891009A69A4 /* FSLLoginCaptchaView.m */; };
+		B31E082F22A3CC9D009A69A4 /* NSString+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E082E22A3CC9D009A69A4 /* NSString+Valid.m */; };
+		B31E083222A3CCAF009A69A4 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E083122A3CCAF009A69A4 /* NSString+Size.m */; };
+		B31E083522A3CCC6009A69A4 /* NSAttributedString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E083422A3CCC6009A69A4 /* NSAttributedString+Size.m */; };
+		B31E083922A3D1BA009A69A4 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E083822A3D1BA009A69A4 /* UITextField+Extension.m */; };
+		B31E083D22A3D292009A69A4 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E083C22A3D292009A69A4 /* UILabel+Extension.m */; };
+		B31E084022A3D561009A69A4 /* FSLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E083F22A3D561009A69A4 /* FSLButton.m */; };
 		B35BCD7922A22F88003C3983 /* FSLNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7822A22F88003C3983 /* FSLNavigationControllerStack.m */; };
 		B35BCD7C22A230AD003C3983 /* FSLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7B22A230AC003C3983 /* FSLNavigationController.m */; };
 		B35BCD7F22A23103003C3983 /* FSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7E22A23103003C3983 /* FSLViewController.m */; };
@@ -154,6 +183,56 @@
 		66FB2D08D857DBA629EC0C30 /* Pods-FSLDevelopExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSLDevelopExample.debug.xcconfig"; path = "Target Support Files/Pods-FSLDevelopExample/Pods-FSLDevelopExample.debug.xcconfig"; sourceTree = "<group>"; };
 		8E1B6294A323596A04F6BFFD /* Pods-FSLDevelopExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSLDevelopExample.release.xcconfig"; path = "Target Support Files/Pods-FSLDevelopExample/Pods-FSLDevelopExample.release.xcconfig"; sourceTree = "<group>"; };
 		A6D9DABF80E25D56448DB558 /* libPods-FSLDevelopExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSLDevelopExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31E07EE22A3C1E1009A69A4 /* FSLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLoginViewController.m; sourceTree = "<group>"; };
+		B31E07EF22A3C1E1009A69A4 /* FSLLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLanguageViewController.h; sourceTree = "<group>"; };
+		B31E07F022A3C1E1009A69A4 /* FSLZoneCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLZoneCodeViewController.h; sourceTree = "<group>"; };
+		B31E07F122A3C1E1009A69A4 /* FSLMobileLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMobileLoginViewController.m; sourceTree = "<group>"; };
+		B31E07F222A3C1E1009A69A4 /* FSLBootLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLBootLoginViewController.m; sourceTree = "<group>"; };
+		B31E07F322A3C1E1009A69A4 /* FSLAccountLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLAccountLoginViewController.h; sourceTree = "<group>"; };
+		B31E07F422A3C1E1009A69A4 /* FSLLoginBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLoginBaseViewController.h; sourceTree = "<group>"; };
+		B31E07F522A3C1E1009A69A4 /* FSLCommitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLCommitViewController.m; sourceTree = "<group>"; };
+		B31E07F622A3C1E1009A69A4 /* FSLRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLRegisterViewController.m; sourceTree = "<group>"; };
+		B31E07F722A3C1E1009A69A4 /* FSLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLLoginViewController.xib; sourceTree = "<group>"; };
+		B31E07F822A3C1E1009A69A4 /* FSLCommitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLCommitViewController.xib; sourceTree = "<group>"; };
+		B31E07F922A3C1E1009A69A4 /* FSLZoneCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLZoneCodeViewController.m; sourceTree = "<group>"; };
+		B31E07FA22A3C1E1009A69A4 /* FSLLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLanguageViewController.m; sourceTree = "<group>"; };
+		B31E07FB22A3C1E1009A69A4 /* FSLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLoginViewController.h; sourceTree = "<group>"; };
+		B31E07FC22A3C1E1009A69A4 /* FSLBootLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLBootLoginViewController.h; sourceTree = "<group>"; };
+		B31E07FD22A3C1E1009A69A4 /* FSLMobileLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMobileLoginViewController.h; sourceTree = "<group>"; };
+		B31E07FE22A3C1E1009A69A4 /* FSLCommitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLCommitViewController.h; sourceTree = "<group>"; };
+		B31E07FF22A3C1E1009A69A4 /* FSLRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLRegisterViewController.xib; sourceTree = "<group>"; };
+		B31E080022A3C1E1009A69A4 /* FSLLoginBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLoginBaseViewController.m; sourceTree = "<group>"; };
+		B31E080122A3C1E1009A69A4 /* FSLAccountLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLAccountLoginViewController.m; sourceTree = "<group>"; };
+		B31E080222A3C1E1009A69A4 /* FSLBootLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLBootLoginViewController.xib; sourceTree = "<group>"; };
+		B31E080322A3C1E1009A69A4 /* FSLRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLRegisterViewController.h; sourceTree = "<group>"; };
+		B31E080422A3C1E1009A69A4 /* FSLMobileLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLMobileLoginViewController.xib; sourceTree = "<group>"; };
+		B31E081422A3C7DE009A69A4 /* UISearchBar+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Extension.h"; sourceTree = "<group>"; };
+		B31E081522A3C7DE009A69A4 /* UISearchBar+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Extension.m"; sourceTree = "<group>"; };
+		B31E081822A3C891009A69A4 /* FSLLoginCaptchaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLLoginCaptchaView.xib; sourceTree = "<group>"; };
+		B31E081922A3C891009A69A4 /* FSLAccountLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLAccountLoginView.xib; sourceTree = "<group>"; };
+		B31E081A22A3C891009A69A4 /* FSLAccountLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLAccountLoginView.m; sourceTree = "<group>"; };
+		B31E081B22A3C891009A69A4 /* FSLMobileLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLMobileLoginView.xib; sourceTree = "<group>"; };
+		B31E081C22A3C891009A69A4 /* FSLMobileLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMobileLoginView.m; sourceTree = "<group>"; };
+		B31E081D22A3C891009A69A4 /* FSLLoginCaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLoginCaptchaView.h; sourceTree = "<group>"; };
+		B31E081E22A3C891009A69A4 /* FSLLoginPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLoginPasswordView.m; sourceTree = "<group>"; };
+		B31E081F22A3C891009A69A4 /* FSLAccountLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLAccountLoginView.h; sourceTree = "<group>"; };
+		B31E082022A3C891009A69A4 /* FSLLoginPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLLoginPasswordView.xib; sourceTree = "<group>"; };
+		B31E082122A3C891009A69A4 /* FSLLoginPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLoginPasswordView.h; sourceTree = "<group>"; };
+		B31E082222A3C891009A69A4 /* FSLLoginCaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLoginCaptchaView.m; sourceTree = "<group>"; };
+		B31E082322A3C891009A69A4 /* FSLMobileLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMobileLoginView.h; sourceTree = "<group>"; };
+		B31E082C22A3C99E009A69A4 /* FSLLoginPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLLoginPasswordView.h; sourceTree = "<group>"; };
+		B31E082D22A3CC9D009A69A4 /* NSString+Valid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Valid.h"; sourceTree = "<group>"; };
+		B31E082E22A3CC9D009A69A4 /* NSString+Valid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Valid.m"; sourceTree = "<group>"; };
+		B31E083022A3CCAF009A69A4 /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		B31E083122A3CCAF009A69A4 /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		B31E083322A3CCC6009A69A4 /* NSAttributedString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Size.h"; sourceTree = "<group>"; };
+		B31E083422A3CCC6009A69A4 /* NSAttributedString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Size.m"; sourceTree = "<group>"; };
+		B31E083722A3D1BA009A69A4 /* UITextField+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
+		B31E083822A3D1BA009A69A4 /* UITextField+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
+		B31E083B22A3D292009A69A4 /* UILabel+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		B31E083C22A3D292009A69A4 /* UILabel+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		B31E083E22A3D561009A69A4 /* FSLButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLButton.h; sourceTree = "<group>"; };
+		B31E083F22A3D561009A69A4 /* FSLButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLButton.m; sourceTree = "<group>"; };
 		B35BCD7722A22F88003C3983 /* FSLNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLNavigationControllerStack.h; sourceTree = "<group>"; };
 		B35BCD7822A22F88003C3983 /* FSLNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLNavigationControllerStack.m; sourceTree = "<group>"; };
 		B35BCD7A22A230AC003C3983 /* FSLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLNavigationController.h; sourceTree = "<group>"; };
@@ -475,6 +554,83 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B31E07ED22A3C1E1009A69A4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B31E07FB22A3C1E1009A69A4 /* FSLLoginViewController.h */,
+				B31E07EE22A3C1E1009A69A4 /* FSLLoginViewController.m */,
+				B31E07F722A3C1E1009A69A4 /* FSLLoginViewController.xib */,
+				B31E07F322A3C1E1009A69A4 /* FSLAccountLoginViewController.h */,
+				B31E080122A3C1E1009A69A4 /* FSLAccountLoginViewController.m */,
+				B31E07FC22A3C1E1009A69A4 /* FSLBootLoginViewController.h */,
+				B31E07F222A3C1E1009A69A4 /* FSLBootLoginViewController.m */,
+				B31E080222A3C1E1009A69A4 /* FSLBootLoginViewController.xib */,
+				B31E07FE22A3C1E1009A69A4 /* FSLCommitViewController.h */,
+				B31E07F522A3C1E1009A69A4 /* FSLCommitViewController.m */,
+				B31E07F822A3C1E1009A69A4 /* FSLCommitViewController.xib */,
+				B31E07EF22A3C1E1009A69A4 /* FSLLanguageViewController.h */,
+				B31E07FA22A3C1E1009A69A4 /* FSLLanguageViewController.m */,
+				B31E07F422A3C1E1009A69A4 /* FSLLoginBaseViewController.h */,
+				B31E080022A3C1E1009A69A4 /* FSLLoginBaseViewController.m */,
+				B31E07FD22A3C1E1009A69A4 /* FSLMobileLoginViewController.h */,
+				B31E07F122A3C1E1009A69A4 /* FSLMobileLoginViewController.m */,
+				B31E080422A3C1E1009A69A4 /* FSLMobileLoginViewController.xib */,
+				B31E080322A3C1E1009A69A4 /* FSLRegisterViewController.h */,
+				B31E07F622A3C1E1009A69A4 /* FSLRegisterViewController.m */,
+				B31E07FF22A3C1E1009A69A4 /* FSLRegisterViewController.xib */,
+				B31E07F022A3C1E1009A69A4 /* FSLZoneCodeViewController.h */,
+				B31E07F922A3C1E1009A69A4 /* FSLZoneCodeViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B31E081322A3C7C8009A69A4 /* UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				B31E081422A3C7DE009A69A4 /* UISearchBar+Extension.h */,
+				B31E081522A3C7DE009A69A4 /* UISearchBar+Extension.m */,
+			);
+			path = UISearchBar;
+			sourceTree = "<group>";
+		};
+		B31E081722A3C891009A69A4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B31E081F22A3C891009A69A4 /* FSLAccountLoginView.h */,
+				B31E081A22A3C891009A69A4 /* FSLAccountLoginView.m */,
+				B31E081922A3C891009A69A4 /* FSLAccountLoginView.xib */,
+				B31E081D22A3C891009A69A4 /* FSLLoginCaptchaView.h */,
+				B31E082222A3C891009A69A4 /* FSLLoginCaptchaView.m */,
+				B31E081822A3C891009A69A4 /* FSLLoginCaptchaView.xib */,
+				B31E082C22A3C99E009A69A4 /* FSLLoginPasswordView.h */,
+				B31E082122A3C891009A69A4 /* FSLLoginPasswordView.h */,
+				B31E081E22A3C891009A69A4 /* FSLLoginPasswordView.m */,
+				B31E082022A3C891009A69A4 /* FSLLoginPasswordView.xib */,
+				B31E082322A3C891009A69A4 /* FSLMobileLoginView.h */,
+				B31E081C22A3C891009A69A4 /* FSLMobileLoginView.m */,
+				B31E081B22A3C891009A69A4 /* FSLMobileLoginView.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B31E083622A3CF41009A69A4 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				B31E083722A3D1BA009A69A4 /* UITextField+Extension.h */,
+				B31E083822A3D1BA009A69A4 /* UITextField+Extension.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		B31E083A22A3D279009A69A4 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				B31E083B22A3D292009A69A4 /* UILabel+Extension.h */,
+				B31E083C22A3D292009A69A4 /* UILabel+Extension.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
 		B35BCD3922A21D48003C3983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +680,7 @@
 		B35BCD3D22A21EFB003C3983 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B31E07ED22A3C1E1009A69A4 /* Login */,
 				B35BCF8122A2A55D003C3983 /* NewFeature */,
 				B35BCE6922A287A3003C3983 /* HomePage */,
 				B35BCD7322A22F31003C3983 /* BaseClass */,
@@ -534,6 +691,7 @@
 		B35BCD3E22A21EFB003C3983 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B31E081722A3C891009A69A4 /* Login */,
 				B35BCE3022A26A8E003C3983 /* Other */,
 				B35BCE2F22A26A35003C3983 /* BaseClass */,
 			);
@@ -615,8 +773,8 @@
 			isa = PBXGroup;
 			children = (
 				B35BCD9122A233A6003C3983 /* FSLWidgetWindow.h */,
-				B35BCD9222A233A6003C3983 /* Models */,
 				B35BCD9E22A233A6003C3983 /* FSLWidgetWindow.m */,
+				B35BCD9222A233A6003C3983 /* Models */,
 				B35BCD9F22A233A6003C3983 /* Views */,
 			);
 			path = MonitorWidget;
@@ -625,17 +783,17 @@
 		B35BCD9222A233A6003C3983 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B35BCD9322A233A6003C3983 /* FSLWDataSourceNetwork.m */,
-				B35BCD9422A233A6003C3983 /* FSLWDataSourceCPU.m */,
-				B35BCD9522A233A6003C3983 /* FSLWidgetDataSource.m */,
 				B35BCD9622A233A6003C3983 /* FSLDataSourceDelegate.h */,
-				B35BCD9722A233A6003C3983 /* FSLWDataSourceMomery.h */,
-				B35BCD9822A233A6003C3983 /* FSLWDataSourceLog.m */,
-				B35BCD9922A233A6003C3983 /* FSLWDataSourceNetwork.h */,
-				B35BCD9A22A233A6003C3983 /* FSLWidgetDataSource.h */,
 				B35BCD9B22A233A6003C3983 /* FSLWDataSourceCPU.h */,
+				B35BCD9422A233A6003C3983 /* FSLWDataSourceCPU.m */,
 				B35BCD9C22A233A6003C3983 /* FSLWDataSourceLog.h */,
+				B35BCD9822A233A6003C3983 /* FSLWDataSourceLog.m */,
+				B35BCD9722A233A6003C3983 /* FSLWDataSourceMomery.h */,
 				B35BCD9D22A233A6003C3983 /* FSLWDataSourceMomery.m */,
+				B35BCD9922A233A6003C3983 /* FSLWDataSourceNetwork.h */,
+				B35BCD9322A233A6003C3983 /* FSLWDataSourceNetwork.m */,
+				B35BCD9A22A233A6003C3983 /* FSLWidgetDataSource.h */,
+				B35BCD9522A233A6003C3983 /* FSLWidgetDataSource.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -656,6 +814,9 @@
 		B35BCDA622A233A6003C3983 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B31E083A22A3D279009A69A4 /* UILabel */,
+				B31E083622A3CF41009A69A4 /* UITextField */,
+				B31E081322A3C7C8009A69A4 /* UISearchBar */,
 				B35BCF7622A2981D003C3983 /* UIAlertController */,
 				B35BCF7222A29754003C3983 /* LCActionSheet */,
 				B35BCE6522A285A6003C3983 /* UIImageView */,
@@ -884,6 +1045,8 @@
 			children = (
 				B35BCE3422A26B52003C3983 /* FSLTableView.h */,
 				B35BCE3522A26B52003C3983 /* FSLTableView.m */,
+				B31E083E22A3D561009A69A4 /* FSLButton.h */,
+				B31E083F22A3D561009A69A4 /* FSLButton.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -958,6 +1121,12 @@
 				B35BCE4C22A27733003C3983 /* NSString+SBExtension.h */,
 				B35BCE4D22A27733003C3983 /* NSString+SBExtension.m */,
 				B35BCE4F22A2781A003C3983 /* NSString+FSL.h */,
+				B31E082D22A3CC9D009A69A4 /* NSString+Valid.h */,
+				B31E082E22A3CC9D009A69A4 /* NSString+Valid.m */,
+				B31E083022A3CCAF009A69A4 /* NSString+Size.h */,
+				B31E083122A3CCAF009A69A4 /* NSString+Size.m */,
+				B31E083322A3CCC6009A69A4 /* NSAttributedString+Size.h */,
+				B31E083422A3CCC6009A69A4 /* NSAttributedString+Size.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -1400,10 +1569,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31E080B22A3C1E1009A69A4 /* FSLCommitViewController.xib in Resources */,
 				B35BCF4F22A291DA003C3983 /* IDMPhotoBrowser.bundle in Resources */,
+				B31E082A22A3C891009A69A4 /* FSLLoginPasswordView.xib in Resources */,
+				B31E082422A3C891009A69A4 /* FSLLoginCaptchaView.xib in Resources */,
+				B31E081222A3C1E1009A69A4 /* FSLMobileLoginViewController.xib in Resources */,
 				B35BCF6A22A291DA003C3983 /* TZImagePickerController.bundle in Resources */,
+				B31E080A22A3C1E1009A69A4 /* FSLLoginViewController.xib in Resources */,
+				B31E080E22A3C1E1009A69A4 /* FSLRegisterViewController.xib in Resources */,
+				B31E082522A3C891009A69A4 /* FSLAccountLoginView.xib in Resources */,
 				B377312422A11AC300E288EF /* Assets.xcassets in Resources */,
 				B35BCF5022A291DA003C3983 /* IDMPBLocalizations.bundle in Resources */,
+				B31E081122A3C1E1009A69A4 /* FSLBootLoginViewController.xib in Resources */,
+				B31E082722A3C891009A69A4 /* FSLMobileLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1459,10 +1637,12 @@
 				B35BCF6222A291DA003C3983 /* LCActionSheet.m in Sources */,
 				B35BCE5B22A2796D003C3983 /* FSLCommonQRCodeItemViewModel.m in Sources */,
 				B35BCF5122A291DA003C3983 /* IDMTapDetectingImageView.m in Sources */,
+				B31E084022A3D561009A69A4 /* FSLButton.m in Sources */,
 				B35BCDF422A25CE5003C3983 /* FSLObject.m in Sources */,
 				B35BCF5322A291DA003C3983 /* IDMPhoto.m in Sources */,
 				B35BCF6C22A291DA003C3983 /* TZImageManager.m in Sources */,
 				B35BCD8B22A23284003C3983 /* FSLCommonViewController.m in Sources */,
+				B31E082922A3C891009A69A4 /* FSLLoginPasswordView.m in Sources */,
 				B35BCF7922A2981D003C3983 /* UIAlertController+Color.m in Sources */,
 				B35BCE5222A2788E003C3983 /* FSLCommonCell.m in Sources */,
 				B35BCEF722A28FDC003C3983 /* FSLEmoticonGroup.m in Sources */,
@@ -1470,11 +1650,15 @@
 				B35BCD7922A22F88003C3983 /* FSLNavigationControllerStack.m in Sources */,
 				B35BCF5C22A291DA003C3983 /* TAAnimatedDotView.m in Sources */,
 				B35BCEF122A28E38003C3983 /* FSLPhotoManager.m in Sources */,
+				B31E080722A3C1E1009A69A4 /* FSLBootLoginViewController.m in Sources */,
+				B31E081622A3C7DE009A69A4 /* UISearchBar+Extension.m in Sources */,
 				B35BCDBA22A233A6003C3983 /* FSLMonitorLogView.m in Sources */,
 				B35BCF6322A291DA003C3983 /* TZImageCropManager.m in Sources */,
+				B31E080522A3C1E1009A69A4 /* FSLLoginViewController.m in Sources */,
 				B35BCE5822A27935003C3983 /* FSLCommonAvatarItemViewModel.m in Sources */,
 				B35BCF5B22A291DA003C3983 /* TAPageControl.m in Sources */,
 				B35BCEAE22A28AE5003C3983 /* FSLMomentHelper.m in Sources */,
+				B31E083D22A3D292009A69A4 /* UILabel+Extension.m in Sources */,
 				B35BCDBE22A233A6003C3983 /* NSString+PLAdd.m in Sources */,
 				B35BCDB522A233A6003C3983 /* FSLWidgetDataSource.m in Sources */,
 				B35BCEEE22A28E38003C3983 /* FSLFileManager.m in Sources */,
@@ -1482,11 +1666,15 @@
 				B35BCEA322A28AA7003C3983 /* YYTimer.m in Sources */,
 				B35BCF5422A291DA003C3983 /* IDMZoomingScrollView.m in Sources */,
 				B35BCDE722A23D05003C3983 /* UIFont+Extension.m in Sources */,
+				B31E082B22A3C891009A69A4 /* FSLLoginCaptchaView.m in Sources */,
 				B35BCF5922A291DA003C3983 /* SDCollectionViewCell.m in Sources */,
 				B35BCF5A22A291DA003C3983 /* TADotView.m in Sources */,
+				B31E083522A3CCC6009A69A4 /* NSAttributedString+Size.m in Sources */,
+				B31E081022A3C1E1009A69A4 /* FSLAccountLoginViewController.m in Sources */,
 				B35BCEF022A28E38003C3983 /* FSLEmoticonManager.m in Sources */,
 				B35BCDFA22A25E10003C3983 /* FSLReflection.m in Sources */,
 				B35BCF5222A291DA003C3983 /* IDMCaptionView.m in Sources */,
+				B31E080D22A3C1E1009A69A4 /* FSLLanguageViewController.m in Sources */,
 				B35BCF6822A291DA003C3983 /* UIView+Layout.m in Sources */,
 				B35BCE0422A25F7E003C3983 /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				B35BCEF822A28FDC003C3983 /* FSLEmoticon.m in Sources */,
@@ -1497,19 +1685,23 @@
 				B35BCE4A22A27535003C3983 /* FSLCommonFooterView.m in Sources */,
 				B35BCE2422A2662D003C3983 /* NSObject+Alert.m in Sources */,
 				B35BCED722A28CFB003C3983 /* FSLLanguageItemViewModel.m in Sources */,
+				B31E083222A3CCAF009A69A4 /* NSString+Size.m in Sources */,
 				B35BCDB922A233A6003C3983 /* FSLMonitorChartView.m in Sources */,
 				B35BCF5822A291DA003C3983 /* UIView+SDExtension.m in Sources */,
 				B35BCE2B22A26844003C3983 /* SAMKeychain+Util.m in Sources */,
 				B35BCE0122A25F31003C3983 /* RACSignal+HTTPServiceAdditions.m in Sources */,
 				B35BCF7122A291DA003C3983 /* TZGifPhotoPreviewController.m in Sources */,
+				B31E080822A3C1E1009A69A4 /* FSLCommitViewController.m in Sources */,
 				B35BCDB622A233A6003C3983 /* FSLWDataSourceLog.m in Sources */,
 				B35BCE3922A27033003C3983 /* FSLCommonViewModel.m in Sources */,
+				B31E080922A3C1E1009A69A4 /* FSLRegisterViewController.m in Sources */,
 				B35BCDC322A233BC003C3983 /* FSLRouter.m in Sources */,
 				B35BCE4722A274F5003C3983 /* FSLCommonHeaderView.m in Sources */,
 				B35BCEEF22A28E38003C3983 /* FSLConfigureManager.m in Sources */,
 				B35BCE6C22A28839003C3983 /* FSLHomePageViewController.m in Sources */,
 				B35BCDBD22A233A6003C3983 /* UIView+YGCommon.m in Sources */,
 				B35BCDB322A233A6003C3983 /* FSLWDataSourceNetwork.m in Sources */,
+				B31E080C22A3C1E1009A69A4 /* FSLZoneCodeViewController.m in Sources */,
 				B35BCE1F22A2649F003C3983 /* NSError+Extension.m in Sources */,
 				B35BCEA122A28AA7003C3983 /* YYGestureRecognizer.m in Sources */,
 				B35BCE3322A26AA8003C3983 /* FSLTabBar.m in Sources */,
@@ -1517,11 +1709,14 @@
 				B35BCDBF22A233A6003C3983 /* NSTimer+MExtension.m in Sources */,
 				B35BCE6122A279C3003C3983 /* FSLCommonSwitchItemViewModel.m in Sources */,
 				B35BCF6E22A291DA003C3983 /* TZPhotoPreviewCell.m in Sources */,
+				B31E082622A3C891009A69A4 /* FSLAccountLoginView.m in Sources */,
 				B35BCEA022A28AA7003C3983 /* YYKeychain.m in Sources */,
+				B31E082822A3C891009A69A4 /* FSLMobileLoginView.m in Sources */,
 				B35BCE1322A261A0003C3983 /* FSLURLParameters.m in Sources */,
 				B35BCF6922A291DA003C3983 /* TZPhotoPreviewController.m in Sources */,
 				B35BCDBB22A233A6003C3983 /* FSLMonitorBaseView.m in Sources */,
 				B35BCEDA22A28CFB003C3983 /* FSLNewFeatureViewModel.m in Sources */,
+				B31E082F22A3CC9D009A69A4 /* NSString+Valid.m in Sources */,
 				B35BCED022A28CFB003C3983 /* FSLMobileLoginViewModel.m in Sources */,
 				B35BCD7F22A23103003C3983 /* FSLViewController.m in Sources */,
 				B35BCF8022A299E6003C3983 /* FSLTabBarViewModel.m in Sources */,
@@ -1540,6 +1735,7 @@
 				B35BCE0A22A26050003C3983 /* FSLHTTPService.m in Sources */,
 				B35BCED222A28CFB003C3983 /* FSLBootLoginViewModel.m in Sources */,
 				B35BCDF722A25DBC003C3983 /* FSLEXTRuntimeExtensions.m in Sources */,
+				B31E080622A3C1E1009A69A4 /* FSLMobileLoginViewController.m in Sources */,
 				B35BCF5522A291DA003C3983 /* IDMPhotoBrowser.m in Sources */,
 				B35BCE2722A2666A003C3983 /* NSObject+Extension.m in Sources */,
 				B35BCE4122A27391003C3983 /* FSLCommonGroupViewModel.m in Sources */,
@@ -1591,7 +1787,9 @@
 				B35BCE0722A25FCC003C3983 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				B35BCF7022A291DA003C3983 /* TZLocationManager.m in Sources */,
 				B35BCEA422A28AA7003C3983 /* YYThreadSafeArray.m in Sources */,
+				B31E080F22A3C1E1009A69A4 /* FSLLoginBaseViewController.m in Sources */,
 				B35BCE5E22A2798E003C3983 /* FSLCommonLabelItemViewModel.m in Sources */,
+				B31E083922A3D1BA009A69A4 /* UITextField+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

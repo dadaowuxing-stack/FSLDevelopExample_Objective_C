@@ -45,5 +45,19 @@
 // 强制隐藏键盘
 - (void)m_endEditing;
 
+/**
+ * 判断一个控件是否真正显示在主窗口
+ */
+- (BOOL)fsl_isShowingOnKeyWindow;
+
+/**
+ * xib创建的view
+ */
++ (instancetype)fsl_viewFromXib;
+
+/**
+ * xib创建的view
+ */
++ (instancetype)fsl_viewFromXibWithFrame:(CGRect)frame;
 
 @end
