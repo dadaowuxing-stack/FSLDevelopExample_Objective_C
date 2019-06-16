@@ -6,11 +6,11 @@
 //  Copyright © 2019 Fingal Liu. All rights reserved.
 //
 
-#import "FSLTableViewController.h"
-
+#import "FSLCommonViewController.h"
+#import "FSLDiscoverViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FSLDiscoverViewController : FSLTableViewController
+@interface FSLDiscoverViewController : FSLCommonViewController
 
 @end
 

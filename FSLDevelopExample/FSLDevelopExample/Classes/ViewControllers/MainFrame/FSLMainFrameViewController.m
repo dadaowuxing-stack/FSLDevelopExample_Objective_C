@@ -15,18 +15,30 @@
 @implementation FSLMainFrameViewController
 
 - (void)viewDidLoad {
+
+    ///①：子类调用父类的viewDidLoad方法，而父类主要是创建tableView以及强行布局子控件，
+    ///从而导致tableView刷新，这样就会去走tableView的数据源方法
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    /// 设置
+    [self _setup];
+    
+    /// 设置导航栏
+    [self _setupNavigationItem];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - 事件处理
+- (void)_addMore{
+    
+    
 }
-*/
+
+#pragma mark - 初始化
+- (void)_setup{
+    /// set up ...
+}
+#pragma mark - 设置导航栏
+- (void)_setupNavigationItem{
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem fsl_systemItemWithTitle:nil titleColor:nil imageName:@"barbuttonicon_add_30x30" target:self selector:@selector(_addMore) textType:NO];
+}
 
 @end

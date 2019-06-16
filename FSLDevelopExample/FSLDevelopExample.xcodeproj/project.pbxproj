@@ -91,6 +91,36 @@
 		B34BBA2D22B622F70060D61A /* FSLSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA2B22B622F60060D61A /* FSLSettingViewModel.m */; };
 		B34BBA3022B623510060D61A /* FSLGenderItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA2E22B623500060D61A /* FSLGenderItemViewModel.m */; };
 		B34BBA3322B624140060D61A /* FSLSegmentedControlViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA3222B624140060D61A /* FSLSegmentedControlViewModel.m */; };
+		B34BBA3B22B636AF0060D61A /* FSLMomentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA3822B636AF0060D61A /* FSLMomentViewController.m */; };
+		B34BBA3E22B637460060D61A /* FSLProfileInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA3C22B637460060D61A /* FSLProfileInfoViewController.m */; };
+		B34BBA6F22B637AD0060D61A /* FSLMomentFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA4222B637AD0060D61A /* FSLMomentFooterView.m */; };
+		B34BBA7022B637AD0060D61A /* FSLMomentShareInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA4322B637AD0060D61A /* FSLMomentShareInfoView.m */; };
+		B34BBA7122B637AD0060D61A /* FSLMomentAttitudesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA4722B637AD0060D61A /* FSLMomentAttitudesCell.m */; };
+		B34BBA7222B637AD0060D61A /* FSLMomentPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA4922B637AD0060D61A /* FSLMomentPhotosView.m */; };
+		B34BBA7322B637AD0060D61A /* FSLMomentPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA4D22B637AD0060D61A /* FSLMomentPhotoView.m */; };
+		B34BBA7422B637AD0060D61A /* FSLMomentContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA4E22B637AD0060D61A /* FSLMomentContentCell.m */; };
+		B34BBA7522B637AD0060D61A /* FSLMomentProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5022B637AD0060D61A /* FSLMomentProfileView.m */; };
+		B34BBA7622B637AD0060D61A /* FSLMomentBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5122B637AD0060D61A /* FSLMomentBackgroundView.m */; };
+		B34BBA7722B637AD0060D61A /* FSLMomentOperationMoreItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5222B637AD0060D61A /* FSLMomentOperationMoreItemView.m */; };
+		B34BBA7822B637AD0060D61A /* FSLMomentMessageTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5522B637AD0060D61A /* FSLMomentMessageTipsView.m */; };
+		B34BBA7922B637AD0060D61A /* FSLMomentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5722B637AD0060D61A /* FSLMomentHeaderView.m */; };
+		B34BBA7A22B637AD0060D61A /* FSLMomentVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5822B637AD0060D61A /* FSLMomentVideoView.m */; };
+		B34BBA7B22B637AD0060D61A /* FSLMomentCommentToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5922B637AD0060D61A /* FSLMomentCommentToolView.m */; };
+		B34BBA7C22B637AD0060D61A /* FSLMomentOperationMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5A22B637AD0060D61A /* FSLMomentOperationMoreView.m */; };
+		B34BBA7D22B637AD0060D61A /* FSLMomentCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA5C22B637AD0060D61A /* FSLMomentCommentCell.m */; };
+		B34BBA7E22B637AD0060D61A /* FSLProfileInfoFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA6022B637AD0060D61A /* FSLProfileInfoFooterView.m */; };
+		B34BBA7F22B637AD0060D61A /* FSLProfileInfoAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA6222B637AD0060D61A /* FSLProfileInfoAlbumCell.m */; };
+		B34BBA8022B637AD0060D61A /* FSLProfileInfoMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34BBA6322B637AD0060D61A /* FSLProfileInfoMoreCell.xib */; };
+		B34BBA8122B637AD0060D61A /* FSLProfileInfoZoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34BBA6422B637AD0060D61A /* FSLProfileInfoZoneCell.xib */; };
+		B34BBA8222B637AD0060D61A /* FSLProfileInfoZoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA6522B637AD0060D61A /* FSLProfileInfoZoneCell.m */; };
+		B34BBA8322B637AD0060D61A /* FSLProfileInfoFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34BBA6922B637AD0060D61A /* FSLProfileInfoFooterView.xib */; };
+		B34BBA8422B637AD0060D61A /* FSLProfileInfoMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA6A22B637AD0060D61A /* FSLProfileInfoMoreCell.m */; };
+		B34BBA8522B637AD0060D61A /* FSLProfileInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34BBA6B22B637AD0060D61A /* FSLProfileInfoCell.xib */; };
+		B34BBA8622B637AD0060D61A /* FSLProfileInfoAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34BBA6D22B637AD0060D61A /* FSLProfileInfoAlbumCell.xib */; };
+		B34BBA8722B637AD0060D61A /* FSLProfileInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA6E22B637AD0060D61A /* FSLProfileInfoCell.m */; };
+		B34BBA8A22B6432B0060D61A /* FSLControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA8922B6432B0060D61A /* FSLControl.m */; };
+		B34BBA9022B6456D0060D61A /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA8E22B6456D0060D61A /* NSDate+Extension.m */; };
+		B34BBA9122B6456D0060D61A /* NSDateFormatter+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA8F22B6456D0060D61A /* NSDateFormatter+Extension.m */; };
 		B35BCD7922A22F88003C3983 /* FSLNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7822A22F88003C3983 /* FSLNavigationControllerStack.m */; };
 		B35BCD7C22A230AD003C3983 /* FSLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7B22A230AC003C3983 /* FSLNavigationController.m */; };
 		B35BCD7F22A23103003C3983 /* FSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7E22A23103003C3983 /* FSLViewController.m */; };
@@ -395,6 +425,61 @@
 		B34BBA2F22B623500060D61A /* FSLGenderItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLGenderItemViewModel.h; sourceTree = "<group>"; };
 		B34BBA3122B624140060D61A /* FSLSegmentedControlViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLSegmentedControlViewModel.h; sourceTree = "<group>"; };
 		B34BBA3222B624140060D61A /* FSLSegmentedControlViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLSegmentedControlViewModel.m; sourceTree = "<group>"; };
+		B34BBA3822B636AF0060D61A /* FSLMomentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentViewController.m; sourceTree = "<group>"; };
+		B34BBA3922B636AF0060D61A /* FSLMomentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentViewController.h; sourceTree = "<group>"; };
+		B34BBA3C22B637460060D61A /* FSLProfileInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileInfoViewController.m; sourceTree = "<group>"; };
+		B34BBA3D22B637460060D61A /* FSLProfileInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileInfoViewController.h; sourceTree = "<group>"; };
+		B34BBA4122B637AD0060D61A /* FSLMomentMessageTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentMessageTipsView.h; sourceTree = "<group>"; };
+		B34BBA4222B637AD0060D61A /* FSLMomentFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentFooterView.m; sourceTree = "<group>"; };
+		B34BBA4322B637AD0060D61A /* FSLMomentShareInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentShareInfoView.m; sourceTree = "<group>"; };
+		B34BBA4422B637AD0060D61A /* FSLMomentOperationMoreItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentOperationMoreItemView.h; sourceTree = "<group>"; };
+		B34BBA4522B637AD0060D61A /* FSLMomentBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentBackgroundView.h; sourceTree = "<group>"; };
+		B34BBA4622B637AD0060D61A /* FSLMomentProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentProfileView.h; sourceTree = "<group>"; };
+		B34BBA4722B637AD0060D61A /* FSLMomentAttitudesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentAttitudesCell.m; sourceTree = "<group>"; };
+		B34BBA4822B637AD0060D61A /* FSLMomentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentHeaderView.h; sourceTree = "<group>"; };
+		B34BBA4922B637AD0060D61A /* FSLMomentPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentPhotosView.m; sourceTree = "<group>"; };
+		B34BBA4A22B637AD0060D61A /* FSLMomentOperationMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentOperationMoreView.h; sourceTree = "<group>"; };
+		B34BBA4B22B637AD0060D61A /* FSLMomentCommentToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentCommentToolView.h; sourceTree = "<group>"; };
+		B34BBA4C22B637AD0060D61A /* FSLMomentVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentVideoView.h; sourceTree = "<group>"; };
+		B34BBA4D22B637AD0060D61A /* FSLMomentPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentPhotoView.m; sourceTree = "<group>"; };
+		B34BBA4E22B637AD0060D61A /* FSLMomentContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentContentCell.m; sourceTree = "<group>"; };
+		B34BBA4F22B637AD0060D61A /* FSLMomentCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentCommentCell.h; sourceTree = "<group>"; };
+		B34BBA5022B637AD0060D61A /* FSLMomentProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentProfileView.m; sourceTree = "<group>"; };
+		B34BBA5122B637AD0060D61A /* FSLMomentBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentBackgroundView.m; sourceTree = "<group>"; };
+		B34BBA5222B637AD0060D61A /* FSLMomentOperationMoreItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentOperationMoreItemView.m; sourceTree = "<group>"; };
+		B34BBA5322B637AD0060D61A /* FSLMomentShareInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentShareInfoView.h; sourceTree = "<group>"; };
+		B34BBA5422B637AD0060D61A /* FSLMomentFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentFooterView.h; sourceTree = "<group>"; };
+		B34BBA5522B637AD0060D61A /* FSLMomentMessageTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentMessageTipsView.m; sourceTree = "<group>"; };
+		B34BBA5622B637AD0060D61A /* FSLMomentAttitudesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentAttitudesCell.h; sourceTree = "<group>"; };
+		B34BBA5722B637AD0060D61A /* FSLMomentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentHeaderView.m; sourceTree = "<group>"; };
+		B34BBA5822B637AD0060D61A /* FSLMomentVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentVideoView.m; sourceTree = "<group>"; };
+		B34BBA5922B637AD0060D61A /* FSLMomentCommentToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentCommentToolView.m; sourceTree = "<group>"; };
+		B34BBA5A22B637AD0060D61A /* FSLMomentOperationMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentOperationMoreView.m; sourceTree = "<group>"; };
+		B34BBA5B22B637AD0060D61A /* FSLMomentPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentPhotosView.h; sourceTree = "<group>"; };
+		B34BBA5C22B637AD0060D61A /* FSLMomentCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentCommentCell.m; sourceTree = "<group>"; };
+		B34BBA5D22B637AD0060D61A /* FSLMomentContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentContentCell.h; sourceTree = "<group>"; };
+		B34BBA5E22B637AD0060D61A /* FSLMomentPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentPhotoView.h; sourceTree = "<group>"; };
+		B34BBA6022B637AD0060D61A /* FSLProfileInfoFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileInfoFooterView.m; sourceTree = "<group>"; };
+		B34BBA6122B637AD0060D61A /* FSLProfileInfoMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileInfoMoreCell.h; sourceTree = "<group>"; };
+		B34BBA6222B637AD0060D61A /* FSLProfileInfoAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileInfoAlbumCell.m; sourceTree = "<group>"; };
+		B34BBA6322B637AD0060D61A /* FSLProfileInfoMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLProfileInfoMoreCell.xib; sourceTree = "<group>"; };
+		B34BBA6422B637AD0060D61A /* FSLProfileInfoZoneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLProfileInfoZoneCell.xib; sourceTree = "<group>"; };
+		B34BBA6522B637AD0060D61A /* FSLProfileInfoZoneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileInfoZoneCell.m; sourceTree = "<group>"; };
+		B34BBA6622B637AD0060D61A /* FSLProfileInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileInfoCell.h; sourceTree = "<group>"; };
+		B34BBA6722B637AD0060D61A /* FSLProfileInfoFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileInfoFooterView.h; sourceTree = "<group>"; };
+		B34BBA6822B637AD0060D61A /* FSLProfileInfoAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileInfoAlbumCell.h; sourceTree = "<group>"; };
+		B34BBA6922B637AD0060D61A /* FSLProfileInfoFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLProfileInfoFooterView.xib; sourceTree = "<group>"; };
+		B34BBA6A22B637AD0060D61A /* FSLProfileInfoMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileInfoMoreCell.m; sourceTree = "<group>"; };
+		B34BBA6B22B637AD0060D61A /* FSLProfileInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLProfileInfoCell.xib; sourceTree = "<group>"; };
+		B34BBA6C22B637AD0060D61A /* FSLProfileInfoZoneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileInfoZoneCell.h; sourceTree = "<group>"; };
+		B34BBA6D22B637AD0060D61A /* FSLProfileInfoAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSLProfileInfoAlbumCell.xib; sourceTree = "<group>"; };
+		B34BBA6E22B637AD0060D61A /* FSLProfileInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileInfoCell.m; sourceTree = "<group>"; };
+		B34BBA8822B6432B0060D61A /* FSLControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLControl.h; sourceTree = "<group>"; };
+		B34BBA8922B6432B0060D61A /* FSLControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLControl.m; sourceTree = "<group>"; };
+		B34BBA8C22B6456D0060D61A /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		B34BBA8D22B6456D0060D61A /* NSDateFormatter+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Extension.h"; sourceTree = "<group>"; };
+		B34BBA8E22B6456D0060D61A /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		B34BBA8F22B6456D0060D61A /* NSDateFormatter+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Extension.m"; sourceTree = "<group>"; };
 		B35BCD7722A22F88003C3983 /* FSLNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLNavigationControllerStack.h; sourceTree = "<group>"; };
 		B35BCD7822A22F88003C3983 /* FSLNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLNavigationControllerStack.m; sourceTree = "<group>"; };
 		B35BCD7A22A230AC003C3983 /* FSLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLNavigationController.h; sourceTree = "<group>"; };
@@ -814,6 +899,8 @@
 		B31E084C22A3F9F6009A69A4 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				B34BBA3722B636AF0060D61A /* Moment */,
+				B34BBA3422B636AF0060D61A /* ProfileInfo */,
 				B31E08B422A3FB5D009A69A4 /* FSLDiscoverViewController.h */,
 				B31E08B522A3FB5D009A69A4 /* FSLDiscoverViewController.m */,
 			);
@@ -1151,6 +1238,103 @@
 			path = Emotion;
 			sourceTree = "<group>";
 		};
+		B34BBA3422B636AF0060D61A /* ProfileInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA3D22B637460060D61A /* FSLProfileInfoViewController.h */,
+				B34BBA3C22B637460060D61A /* FSLProfileInfoViewController.m */,
+			);
+			path = ProfileInfo;
+			sourceTree = "<group>";
+		};
+		B34BBA3722B636AF0060D61A /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA3922B636AF0060D61A /* FSLMomentViewController.h */,
+				B34BBA3822B636AF0060D61A /* FSLMomentViewController.m */,
+			);
+			path = Moment;
+			sourceTree = "<group>";
+		};
+		B34BBA3F22B637AD0060D61A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA4022B637AD0060D61A /* Moment */,
+				B34BBA5F22B637AD0060D61A /* ProfileInfo */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B34BBA4022B637AD0060D61A /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA5622B637AD0060D61A /* FSLMomentAttitudesCell.h */,
+				B34BBA4722B637AD0060D61A /* FSLMomentAttitudesCell.m */,
+				B34BBA4522B637AD0060D61A /* FSLMomentBackgroundView.h */,
+				B34BBA5122B637AD0060D61A /* FSLMomentBackgroundView.m */,
+				B34BBA4F22B637AD0060D61A /* FSLMomentCommentCell.h */,
+				B34BBA5C22B637AD0060D61A /* FSLMomentCommentCell.m */,
+				B34BBA4B22B637AD0060D61A /* FSLMomentCommentToolView.h */,
+				B34BBA5922B637AD0060D61A /* FSLMomentCommentToolView.m */,
+				B34BBA5D22B637AD0060D61A /* FSLMomentContentCell.h */,
+				B34BBA4E22B637AD0060D61A /* FSLMomentContentCell.m */,
+				B34BBA5422B637AD0060D61A /* FSLMomentFooterView.h */,
+				B34BBA4222B637AD0060D61A /* FSLMomentFooterView.m */,
+				B34BBA4822B637AD0060D61A /* FSLMomentHeaderView.h */,
+				B34BBA5722B637AD0060D61A /* FSLMomentHeaderView.m */,
+				B34BBA4122B637AD0060D61A /* FSLMomentMessageTipsView.h */,
+				B34BBA5522B637AD0060D61A /* FSLMomentMessageTipsView.m */,
+				B34BBA4422B637AD0060D61A /* FSLMomentOperationMoreItemView.h */,
+				B34BBA5222B637AD0060D61A /* FSLMomentOperationMoreItemView.m */,
+				B34BBA4A22B637AD0060D61A /* FSLMomentOperationMoreView.h */,
+				B34BBA5A22B637AD0060D61A /* FSLMomentOperationMoreView.m */,
+				B34BBA5B22B637AD0060D61A /* FSLMomentPhotosView.h */,
+				B34BBA4922B637AD0060D61A /* FSLMomentPhotosView.m */,
+				B34BBA5E22B637AD0060D61A /* FSLMomentPhotoView.h */,
+				B34BBA4D22B637AD0060D61A /* FSLMomentPhotoView.m */,
+				B34BBA4622B637AD0060D61A /* FSLMomentProfileView.h */,
+				B34BBA5022B637AD0060D61A /* FSLMomentProfileView.m */,
+				B34BBA5322B637AD0060D61A /* FSLMomentShareInfoView.h */,
+				B34BBA4322B637AD0060D61A /* FSLMomentShareInfoView.m */,
+				B34BBA4C22B637AD0060D61A /* FSLMomentVideoView.h */,
+				B34BBA5822B637AD0060D61A /* FSLMomentVideoView.m */,
+			);
+			path = Moment;
+			sourceTree = "<group>";
+		};
+		B34BBA5F22B637AD0060D61A /* ProfileInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA6822B637AD0060D61A /* FSLProfileInfoAlbumCell.h */,
+				B34BBA6222B637AD0060D61A /* FSLProfileInfoAlbumCell.m */,
+				B34BBA6D22B637AD0060D61A /* FSLProfileInfoAlbumCell.xib */,
+				B34BBA6622B637AD0060D61A /* FSLProfileInfoCell.h */,
+				B34BBA6E22B637AD0060D61A /* FSLProfileInfoCell.m */,
+				B34BBA6B22B637AD0060D61A /* FSLProfileInfoCell.xib */,
+				B34BBA6722B637AD0060D61A /* FSLProfileInfoFooterView.h */,
+				B34BBA6022B637AD0060D61A /* FSLProfileInfoFooterView.m */,
+				B34BBA6922B637AD0060D61A /* FSLProfileInfoFooterView.xib */,
+				B34BBA6122B637AD0060D61A /* FSLProfileInfoMoreCell.h */,
+				B34BBA6A22B637AD0060D61A /* FSLProfileInfoMoreCell.m */,
+				B34BBA6322B637AD0060D61A /* FSLProfileInfoMoreCell.xib */,
+				B34BBA6C22B637AD0060D61A /* FSLProfileInfoZoneCell.h */,
+				B34BBA6522B637AD0060D61A /* FSLProfileInfoZoneCell.m */,
+				B34BBA6422B637AD0060D61A /* FSLProfileInfoZoneCell.xib */,
+			);
+			path = ProfileInfo;
+			sourceTree = "<group>";
+		};
+		B34BBA8B22B6456D0060D61A /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA8C22B6456D0060D61A /* NSDate+Extension.h */,
+				B34BBA8D22B6456D0060D61A /* NSDateFormatter+Extension.h */,
+				B34BBA8E22B6456D0060D61A /* NSDate+Extension.m */,
+				B34BBA8F22B6456D0060D61A /* NSDateFormatter+Extension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
 		B35BCD3922A21D48003C3983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1221,6 +1405,7 @@
 		B35BCD3E22A21EFB003C3983 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B34BBA3F22B637AD0060D61A /* Discover */,
 				B31E081722A3C891009A69A4 /* Login */,
 				B35BCE3022A26A8E003C3983 /* Other */,
 				B35BCE2F22A26A35003C3983 /* BaseClass */,
@@ -1344,6 +1529,7 @@
 		B35BCDA622A233A6003C3983 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B34BBA8B22B6456D0060D61A /* NSDate */,
 				B31E083A22A3D279009A69A4 /* UILabel */,
 				B31E083622A3CF41009A69A4 /* UITextField */,
 				B31E081322A3C7C8009A69A4 /* UISearchBar */,
@@ -1579,6 +1765,8 @@
 				B35BCE3522A26B52003C3983 /* FSLTableView.m */,
 				B31E083E22A3D561009A69A4 /* FSLButton.h */,
 				B31E083F22A3D561009A69A4 /* FSLButton.m */,
+				B34BBA8822B6432B0060D61A /* FSLControl.h */,
+				B34BBA8922B6432B0060D61A /* FSLControl.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -2103,19 +2291,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34BBA8622B637AD0060D61A /* FSLProfileInfoAlbumCell.xib in Resources */,
 				B31E080B22A3C1E1009A69A4 /* FSLCommitViewController.xib in Resources */,
 				B35BCF4F22A291DA003C3983 /* IDMPhotoBrowser.bundle in Resources */,
 				B31E082A22A3C891009A69A4 /* FSLLoginPasswordView.xib in Resources */,
 				B31E082422A3C891009A69A4 /* FSLLoginCaptchaView.xib in Resources */,
 				B31E081222A3C1E1009A69A4 /* FSLMobileLoginViewController.xib in Resources */,
 				B35BCF6A22A291DA003C3983 /* TZImagePickerController.bundle in Resources */,
+				B34BBA8522B637AD0060D61A /* FSLProfileInfoCell.xib in Resources */,
 				B31E080A22A3C1E1009A69A4 /* FSLLoginViewController.xib in Resources */,
 				B31E080E22A3C1E1009A69A4 /* FSLRegisterViewController.xib in Resources */,
+				B34BBA8322B637AD0060D61A /* FSLProfileInfoFooterView.xib in Resources */,
 				B31E082522A3C891009A69A4 /* FSLAccountLoginView.xib in Resources */,
 				B377312422A11AC300E288EF /* Assets.xcassets in Resources */,
 				B35BCF5022A291DA003C3983 /* IDMPBLocalizations.bundle in Resources */,
 				B31E081122A3C1E1009A69A4 /* FSLBootLoginViewController.xib in Resources */,
 				B31E082722A3C891009A69A4 /* FSLMobileLoginView.xib in Resources */,
+				B34BBA8022B637AD0060D61A /* FSLProfileInfoMoreCell.xib in Resources */,
+				B34BBA8122B637AD0060D61A /* FSLProfileInfoZoneCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2168,6 +2361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34BBA8A22B6432B0060D61A /* FSLControl.m in Sources */,
 				B35BCF6222A291DA003C3983 /* LCActionSheet.m in Sources */,
 				B35BCE5B22A2796D003C3983 /* FSLCommonQRCodeItemViewModel.m in Sources */,
 				B35BCF5122A291DA003C3983 /* IDMTapDetectingImageView.m in Sources */,
@@ -2180,7 +2374,9 @@
 				B35BCD8B22A23284003C3983 /* FSLCommonViewController.m in Sources */,
 				B31E082922A3C891009A69A4 /* FSLLoginPasswordView.m in Sources */,
 				B35BCF7922A2981D003C3983 /* UIAlertController+Color.m in Sources */,
+				B34BBA7422B637AD0060D61A /* FSLMomentContentCell.m in Sources */,
 				B35BCE5222A2788E003C3983 /* FSLCommonCell.m in Sources */,
+				B34BBA7C22B637AD0060D61A /* FSLMomentOperationMoreView.m in Sources */,
 				B34BB9F222B5FF5C0060D61A /* FSLModifyNicknameViewModel.m in Sources */,
 				B35BCEF722A28FDC003C3983 /* FSLEmoticonGroup.m in Sources */,
 				B34BB99922B5F0B80060D61A /* FSLContactsViewModel.m in Sources */,
@@ -2195,8 +2391,11 @@
 				B34BBA3022B623510060D61A /* FSLGenderItemViewModel.m in Sources */,
 				B35BCDBA22A233A6003C3983 /* FSLMonitorLogView.m in Sources */,
 				B34BB9AE22B5F53F0060D61A /* FSLComment.m in Sources */,
+				B34BBA7122B637AD0060D61A /* FSLMomentAttitudesCell.m in Sources */,
 				B35BCF6322A291DA003C3983 /* TZImageCropManager.m in Sources */,
+				B34BBA8422B637AD0060D61A /* FSLProfileInfoMoreCell.m in Sources */,
 				B31E080522A3C1E1009A69A4 /* FSLLoginViewController.m in Sources */,
+				B34BBA7622B637AD0060D61A /* FSLMomentBackgroundView.m in Sources */,
 				B35BCE5822A27935003C3983 /* FSLCommonAvatarItemViewModel.m in Sources */,
 				B35BCF5B22A291DA003C3983 /* TAPageControl.m in Sources */,
 				B35BCEAE22A28AE5003C3983 /* FSLMomentHelper.m in Sources */,
@@ -2204,6 +2403,7 @@
 				B35BCDBE22A233A6003C3983 /* NSString+PLAdd.m in Sources */,
 				B35BCDB522A233A6003C3983 /* FSLWidgetDataSource.m in Sources */,
 				B35BCEEE22A28E38003C3983 /* FSLFileManager.m in Sources */,
+				B34BBA8222B637AD0060D61A /* FSLProfileInfoZoneCell.m in Sources */,
 				B35BCF6522A291DA003C3983 /* TZVideoPlayerController.m in Sources */,
 				B34BBA3322B624140060D61A /* FSLSegmentedControlViewModel.m in Sources */,
 				B35BCEA322A28AA7003C3983 /* YYTimer.m in Sources */,
@@ -2212,6 +2412,7 @@
 				B34BB99322B5F0B80060D61A /* FSLMomentReplyItemViewModel.m in Sources */,
 				B34BB9FB22B5FF5C0060D61A /* FSLFeatureSignatureViewModel.m in Sources */,
 				B35BCF5422A291DA003C3983 /* IDMZoomingScrollView.m in Sources */,
+				B34BBA7E22B637AD0060D61A /* FSLProfileInfoFooterView.m in Sources */,
 				B35BCDE722A23D05003C3983 /* UIFont+Extension.m in Sources */,
 				B31E082B22A3C891009A69A4 /* FSLLoginCaptchaView.m in Sources */,
 				B35BCF5922A291DA003C3983 /* SDCollectionViewCell.m in Sources */,
@@ -2227,10 +2428,13 @@
 				B35BCEF822A28FDC003C3983 /* FSLEmoticon.m in Sources */,
 				B35BCED622A28CFB003C3983 /* FSLLoginViewModel.m in Sources */,
 				B35BCDCA22A23554003C3983 /* FSLConstant.m in Sources */,
+				B34BBA9122B6456D0060D61A /* NSDateFormatter+Extension.m in Sources */,
 				B35BCE4E22A27733003C3983 /* NSString+SBExtension.m in Sources */,
 				B34BB95C22B5ED550060D61A /* FSLMainFrameViewModel.m in Sources */,
 				B35BCE1C22A26459003C3983 /* NSError+ModelException.m in Sources */,
 				B35BCE4A22A27535003C3983 /* FSLCommonFooterView.m in Sources */,
+				B34BBA3B22B636AF0060D61A /* FSLMomentViewController.m in Sources */,
+				B34BBA6F22B637AD0060D61A /* FSLMomentFooterView.m in Sources */,
 				B35BCE2422A2662D003C3983 /* NSObject+Alert.m in Sources */,
 				B35BCED722A28CFB003C3983 /* FSLLanguageItemViewModel.m in Sources */,
 				B34BB96822B5EE640060D61A /* FSLLiveRoom.m in Sources */,
@@ -2241,13 +2445,16 @@
 				B35BCE2B22A26844003C3983 /* SAMKeychain+Util.m in Sources */,
 				B34BBA1222B61E1F0060D61A /* FSLFreeInterruptionViewModel.m in Sources */,
 				B34BB99722B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.m in Sources */,
+				B34BBA7022B637AD0060D61A /* FSLMomentShareInfoView.m in Sources */,
 				B34BBA1522B61E7F0060D61A /* FSLGenderViewModel.m in Sources */,
+				B34BBA7B22B637AD0060D61A /* FSLMomentCommentToolView.m in Sources */,
 				B34BBA2322B621470060D61A /* FSLPlugViewModel.m in Sources */,
 				B35BCE0122A25F31003C3983 /* RACSignal+HTTPServiceAdditions.m in Sources */,
 				B35BCF7122A291DA003C3983 /* TZGifPhotoPreviewController.m in Sources */,
 				B31E080822A3C1E1009A69A4 /* FSLCommitViewController.m in Sources */,
 				B35BCDB622A233A6003C3983 /* FSLWDataSourceLog.m in Sources */,
 				B35BCE3922A27033003C3983 /* FSLCommonViewModel.m in Sources */,
+				B34BBA7222B637AD0060D61A /* FSLMomentPhotosView.m in Sources */,
 				B31E080922A3C1E1009A69A4 /* FSLRegisterViewController.m in Sources */,
 				B35BCDC322A233BC003C3983 /* FSLRouter.m in Sources */,
 				B35BCE4722A274F5003C3983 /* FSLCommonHeaderView.m in Sources */,
@@ -2280,6 +2487,8 @@
 				B35BCED022A28CFB003C3983 /* FSLMobileLoginViewModel.m in Sources */,
 				B35BCD7F22A23103003C3983 /* FSLViewController.m in Sources */,
 				B31E08AD22A3FAE6009A69A4 /* FSLMainFrameViewController.m in Sources */,
+				B34BBA7922B637AD0060D61A /* FSLMomentHeaderView.m in Sources */,
+				B34BBA7F22B637AD0060D61A /* FSLProfileInfoAlbumCell.m in Sources */,
 				B35BCF8022A299E6003C3983 /* FSLTabBarViewModel.m in Sources */,
 				B34BB9AF22B5F53F0060D61A /* FSLMoment.m in Sources */,
 				B35BCDB722A233A6003C3983 /* FSLWDataSourceMomery.m in Sources */,
@@ -2294,6 +2503,7 @@
 				B35BCEAF22A28AE5003C3983 /* FSLControllerHelper.m in Sources */,
 				B35BCE5522A2790B003C3983 /* FSLCommonArrowItemViewModel.m in Sources */,
 				B34BBA2A22B622920060D61A /* FSLUserInfoViewModel.m in Sources */,
+				B34BBA3E22B637460060D61A /* FSLProfileInfoViewController.m in Sources */,
 				B35BCDDD22A23977003C3983 /* UIBarButtonItem+Extension.m in Sources */,
 				B34BB99522B5F0B80060D61A /* FSLDiscoverViewModel.m in Sources */,
 				B35BCF4E22A291DA003C3983 /* UIImage+ImageEffects.m in Sources */,
@@ -2313,15 +2523,18 @@
 				B35BCF6622A291DA003C3983 /* TZAssetModel.m in Sources */,
 				B35BCF8422A2A55D003C3983 /* FSLNewFeatureViewController.m in Sources */,
 				B35BCD8E22A232F1003C3983 /* FSLSegmentedControlController.m in Sources */,
+				B34BBA7822B637AD0060D61A /* FSLMomentMessageTipsView.m in Sources */,
 				B35BCE9F22A28AA7003C3983 /* YYThreadSafeDictionary.m in Sources */,
 				B35BCEA522A28AA7003C3983 /* YYReachability.m in Sources */,
 				B34BB9EF22B5FF5C0060D61A /* FSLMoreInfoViewModel.m in Sources */,
+				B34BBA7322B637AD0060D61A /* FSLMomentPhotoView.m in Sources */,
 				B31E08B622A3FB5D009A69A4 /* FSLDiscoverViewController.m in Sources */,
 				B35BCF5D22A291DA003C3983 /* TAAbstractDotView.m in Sources */,
 				B34BB9B222B5F53F0060D61A /* FSLMomentVideo.m in Sources */,
 				B35BCEAD22A28AE5003C3983 /* FSLPreferenceSettingHelper.m in Sources */,
 				B35BCF7D22A29999003C3983 /* FSLHomePageViewModel.m in Sources */,
 				B35BCE1022A26144003C3983 /* FSLHTTPRequest.m in Sources */,
+				B34BBA7A22B637AD0060D61A /* FSLMomentVideoView.m in Sources */,
 				B35BCD8222A2316E003C3983 /* FSLTableViewController.m in Sources */,
 				B34BB99822B5F0B80060D61A /* FSLSearchFriendsViewModel.m in Sources */,
 				B377312A22A11AC300E288EF /* main.m in Sources */,
@@ -2336,10 +2549,12 @@
 				B34BB96622B5EE640060D61A /* FSLLiveInfo.m in Sources */,
 				B34BBA2722B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.m in Sources */,
 				B34BB9F122B5FF5C0060D61A /* FSLPrivacyViewModel.m in Sources */,
+				B34BBA7522B637AD0060D61A /* FSLMomentProfileView.m in Sources */,
 				B35BCD7C22A230AD003C3983 /* FSLNavigationController.m in Sources */,
 				B35BCDE122A23A12003C3983 /* UIImage+Extension.m in Sources */,
 				B35BCD8522A231B4003C3983 /* FSLWebViewController.m in Sources */,
 				B31E08B322A3FB3E009A69A4 /* FSLContactsViewController.m in Sources */,
+				B34BBA7722B637AD0060D61A /* FSLMomentOperationMoreItemView.m in Sources */,
 				B35BCF7522A29754003C3983 /* LCActionSheet+Extension.m in Sources */,
 				B35BCE9E22A28AA7003C3983 /* YYWeakProxy.m in Sources */,
 				B35BCDEA22A25B1D003C3983 /* FSLViewModelServicesImpl.m in Sources */,
@@ -2350,8 +2565,10 @@
 				B34BB99022B5F0B80060D61A /* FSLMomentContentItemViewModel.m in Sources */,
 				B35BCDB422A233A6003C3983 /* FSLWDataSourceCPU.m in Sources */,
 				B35BCE2E22A2691C003C3983 /* FSLTableViewModel.m in Sources */,
+				B34BBA7D22B637AD0060D61A /* FSLMomentCommentCell.m in Sources */,
 				B31E08B922A3FB72009A69A4 /* FSLProfileViewController.m in Sources */,
 				B35BCF6D22A291DA003C3983 /* TZPhotoPickerController.m in Sources */,
+				B34BBA9022B6456D0060D61A /* NSDate+Extension.m in Sources */,
 				B35BCDB822A233A6003C3983 /* FSLWidgetWindow.m in Sources */,
 				B35BCDC722A23489003C3983 /* FSLViewModel.m in Sources */,
 				B35BCD8822A2322F003C3983 /* FSLTabBarController.m in Sources */,
@@ -2363,6 +2580,7 @@
 				B35BCE6422A27A2F003C3983 /* FSLCommonValueItemViewModel.m in Sources */,
 				B34BB99122B5F0B80060D61A /* FSLMomentPhotoItemViewModel.m in Sources */,
 				B35BCF5E22A291DA003C3983 /* LCActionSheetViewController.m in Sources */,
+				B34BBA8722B637AD0060D61A /* FSLProfileInfoCell.m in Sources */,
 				B35BCDFD22A25EBF003C3983 /* FSLHTTPResponse.m in Sources */,
 				B377311C22A11AC200E288EF /* AppDelegate.m in Sources */,
 				B35BCF6122A291DA003C3983 /* LCActionSheetConfig.m in Sources */,

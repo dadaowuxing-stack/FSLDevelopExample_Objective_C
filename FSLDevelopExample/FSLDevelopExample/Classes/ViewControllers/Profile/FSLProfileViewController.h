@@ -6,11 +6,11 @@
 //  Copyright © 2019 Fingal Liu. All rights reserved.
 //
 
-#import "FSLTableViewController.h"
-
+#import "FSLCommonViewController.h"
+#import "FSLProfileViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FSLProfileViewController : FSLTableViewController
+@interface FSLProfileViewController : FSLCommonViewController
 
 @end
 
