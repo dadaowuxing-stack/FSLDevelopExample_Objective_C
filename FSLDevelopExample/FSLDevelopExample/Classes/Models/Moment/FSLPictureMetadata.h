@@ -2,7 +2,7 @@
 //  FSLPictureMetadata.h
 //  WeChat
 //
-//  Created by senba on 2017/12/21.
+//  Created by Fingal Liu on 2017/12/21.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 /// 一张图片的元数据
 

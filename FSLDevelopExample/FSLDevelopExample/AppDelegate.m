@@ -107,7 +107,7 @@
     //    [[FMDatabaseQueue sharedInstance] inDatabase:^(FMDatabase *db) {
     //        NSString *version = [[NSUserDefaults standardUserDefaults] valueForKey:SBApplicationVersionKey];
     //        if (![version isEqualToString:SB_APP_VERSION]) {
-    //            NSString *path = [[NSBundle mainBundle] pathForResource:@"senba_empty_1.0.0" ofType:@"sql"];
+    //            NSString *path = [[NSBundle mainBundle] pathForResource:@"FingalLiu_empty_1.0.0" ofType:@"sql"];
     //            NSString *sql  = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     //            /// 执行文件
     //            if (![db executeStatements:sql]) {

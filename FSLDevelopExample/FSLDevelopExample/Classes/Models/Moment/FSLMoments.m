@@ -2,7 +2,7 @@
 //  FSLMoments.m
 //  FSLDevelopExample
 //
-//  Created by senba on 2017/7/7.
+//  Created by Fingal Liu on 2017/7/7.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 

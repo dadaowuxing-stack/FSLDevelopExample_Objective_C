@@ -2,7 +2,7 @@
 //  FSLLanguageViewModel.h
 //  WeChat
 //
-//  Created by senba on 2017/10/13.
+//  Created by Fingal Liu on 2017/10/13.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 

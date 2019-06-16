@@ -2,7 +2,7 @@
 //  FSLRegisterViewController.h
 //  WeChat
 //
-//  Created by senba on 2017/10/12.
+//  Created by Fingal Liu on 2017/10/12.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  注册账号
 

@@ -2,8 +2,8 @@
 //  SDCycleScrollView_MH.h
 //  WeChat
 //
-//  Created by senba on 2017/9/12.
-//  Copyright © 2017年 Senba. All rights reserved.
+//  Created by Fingal Liu on 2017/9/12.
+//  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 
 #ifndef SDCycleScrollView_MH_h

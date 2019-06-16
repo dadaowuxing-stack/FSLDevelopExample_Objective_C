@@ -2,7 +2,7 @@
 //  FSLMomentContentItemViewModel.h
 //  FSLDevelopExample
 //
-//  Created by senba on 2017/7/16.
+//  Created by Fingal Liu on 2017/7/16.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  朋友圈 评论+点赞的基类
 

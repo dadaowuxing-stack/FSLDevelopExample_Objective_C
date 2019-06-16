@@ -2,7 +2,7 @@
 //  FSLControllerHelper.m
 //  WeChat
 //
-//  Created by senba on 2017/9/11.
+//  Created by Fingal Liu on 2017/9/11.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 

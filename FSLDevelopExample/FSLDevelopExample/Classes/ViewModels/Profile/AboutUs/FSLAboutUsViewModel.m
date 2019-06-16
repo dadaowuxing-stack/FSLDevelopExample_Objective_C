@@ -2,7 +2,7 @@
 //  FSLAboutUsViewModel.m
 //  WeChat
 //
-//  Created by senba on 2017/12/13.
+//  Created by Fingal Liu on 2017/12/13.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 

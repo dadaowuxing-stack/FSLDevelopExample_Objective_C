@@ -2,7 +2,7 @@
 //  FSLMainFrameItemViewModel.h
 //  WeChat
 //
-//  Created by senba on 2017/10/20.
+//  Created by Fingal Liu on 2017/10/20.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 

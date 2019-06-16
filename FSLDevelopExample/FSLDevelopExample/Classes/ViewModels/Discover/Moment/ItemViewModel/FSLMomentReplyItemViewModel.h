@@ -2,7 +2,7 @@
 //  FSLMomentReplyItemViewModel.h
 //  WeChat
 //
-//  Created by senba on 2018/1/24.
+//  Created by Fingal Liu on 2018/1/24.
 //  Copyright © 2018年 Fingal Liu. All rights reserved.
 //  点击评论 或者点击 评论Cell ,通过 Router 模式生成一个 FSLMomentReplyItemViewModel 用于 commentToolView的绑定
 

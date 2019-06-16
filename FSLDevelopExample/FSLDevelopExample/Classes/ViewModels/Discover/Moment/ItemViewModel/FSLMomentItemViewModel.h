@@ -2,7 +2,7 @@
 //  FSLMomentItemViewModel.h
 //  FSLDevelopExample
 //
-//  Created by senba on 2017/7/9.
+//  Created by Fingal Liu on 2017/7/9.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  单条说说的视图模型
 

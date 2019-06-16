@@ -2,8 +2,8 @@
 //  IDMPhotoBrowser_MH.h
 //  WeChat
 //
-//  Created by senba on 2017/8/13.
-//  Copyright © 2017年 Senba. All rights reserved.
+//  Created by Fingal Liu on 2017/8/13.
+//  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  这个用来记录
 
 #ifndef IDMPhotoBrowser_MH_h

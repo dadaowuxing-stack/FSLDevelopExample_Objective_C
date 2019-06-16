@@ -50,7 +50,7 @@ NSInteger const FSLHTTPServiceErrorSecureConnectionFailed = 673;
 
 
 /// 用户信息的名称
-static NSString * const FSLUserDataFileName = @"senba_empty_user.data";
+static NSString * const FSLUserDataFileName = @"FingalLiu_empty_user.data";
 /// 用户数据配置完成
 NSString *const FSLUserDataConfigureCompleteNotification = @"FSLUserDataConfigureCompleteNotification";
 /// 用户数据配置完成，取出userInfo 数据的的key
@@ -374,7 +374,7 @@ static id service_ = nil;
             // 设置时间格式
             [formatter setDateFormat:@"yyyyMMddHHmmss"];
             NSString *dateString = [formatter stringFromDate:[NSDate date]];
-            NSString *fileName = [NSString  stringWithFormat:@"senba_empty_%@_%zd.jpg", dateString , i];
+            NSString *fileName = [NSString  stringWithFormat:@"FingalLiu_empty_%@_%zd.jpg", dateString , i];
             [formData appendPartWithFileData:fileData name:name fileName:fileName mimeType:FSLStringIsNotEmpty(mimeType)?mimeType:@"application/octet-stream"];
         }
     }]

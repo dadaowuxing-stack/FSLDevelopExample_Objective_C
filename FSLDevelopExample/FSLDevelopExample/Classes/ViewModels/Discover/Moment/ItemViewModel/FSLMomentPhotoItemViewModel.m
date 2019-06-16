@@ -2,7 +2,7 @@
 //  FSLMomentPhotoItemViewModel.m
 //  FSLDevelopExample
 //
-//  Created by senba on 2017/7/12.
+//  Created by Fingal Liu on 2017/7/12.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  配图中单张图片的视图模型
 

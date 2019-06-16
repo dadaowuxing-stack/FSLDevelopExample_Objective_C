@@ -2,7 +2,7 @@
 //  FSLMomentProfileViewModel.h
 //  FSLDevelopExample
 //
-//  Created by senba on 2017/7/14.
+//  Created by Fingal Liu on 2017/7/14.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  微信朋友圈个人信息的视图模型
 

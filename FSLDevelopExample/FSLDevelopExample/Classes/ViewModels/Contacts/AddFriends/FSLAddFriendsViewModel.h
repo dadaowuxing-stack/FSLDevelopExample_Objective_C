@@ -2,7 +2,7 @@
 //  FSLAddFriendsViewModel.h
 //  WeChat
 //
-//  Created by senba on 2017/9/22.
+//  Created by Fingal Liu on 2017/9/22.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  添加好友
 

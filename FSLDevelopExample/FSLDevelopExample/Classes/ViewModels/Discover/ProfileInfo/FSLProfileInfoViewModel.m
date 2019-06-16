@@ -2,7 +2,7 @@
 //  FSLProfileInfoViewModel.m
 //  WeChat
 //
-//  Created by senba on 2018/1/29.
+//  Created by Fingal Liu on 2018/1/29.
 //  Copyright © 2018年 Fingal Liu. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  FSLPreferenceSettingHelper.m
 //  WeChat
 //
-//  Created by senba on 2017/10/14.
+//  Created by Fingal Liu on 2017/10/14.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  项目的偏好设置工具类
 

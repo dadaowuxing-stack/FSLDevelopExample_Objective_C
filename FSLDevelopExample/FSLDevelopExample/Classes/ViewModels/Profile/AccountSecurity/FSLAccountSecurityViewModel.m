@@ -2,7 +2,7 @@
 //  FSLAccountSecurityViewModel.m
 //  WeChat
 //
-//  Created by senba on 2017/12/7.
+//  Created by Fingal Liu on 2017/12/7.
 //  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 
