@@ -77,7 +77,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     /// ignore adjust auto scroll 64
-    /// CoderMikeHe: 适配 iOS 11.0 ,iOS11以后，控制器的automaticallyAdjustsScrollViewInsets已经废弃，所以默认就会是YES
+    /// Fingal Liu: 适配 iOS 11.0 ,iOS11以后，控制器的automaticallyAdjustsScrollViewInsets已经废弃，所以默认就会是YES
     /// iOS 11新增：adjustContentInset 和 contentInsetAdjustmentBehavior 来处理滚动区域
     ///
     if (@available(iOS 11.0, *)) {
@@ -107,7 +107,7 @@
 // bind the viewModel
 - (void)bindViewModel{
     /// set navgation title
-    /// CoderMikeHe Fixed: 这里只是单纯设置导航栏的title。 不然以免self.title同时设置了navigatiItem.title, 同时又设置了tabBarItem.title
+    /// Fingal Liu Fixed: 这里只是单纯设置导航栏的title。 不然以免self.title同时设置了navigatiItem.title, 同时又设置了tabBarItem.title
     
     NSLog(@"--- %@" , self.viewModel.title);
     @weakify(self);

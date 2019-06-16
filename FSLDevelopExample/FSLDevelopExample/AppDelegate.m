@@ -155,7 +155,7 @@
     
     /// 打开调试按钮
     [FSLDebugTouchView sharedInstance];
-    /// CoderMikeHe Fixed: 切换了根控制器，切记需要将指示器 移到window的最前面
+    /// Fingal Liu Fixed: 切换了根控制器，切记需要将指示器 移到window的最前面
     [self.window bringSubviewToFront:[FSLDebugTouchView sharedInstance]];
 }
 

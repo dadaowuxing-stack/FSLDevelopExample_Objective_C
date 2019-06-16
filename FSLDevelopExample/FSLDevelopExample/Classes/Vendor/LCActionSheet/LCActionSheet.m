@@ -34,7 +34,7 @@
 #import "MH_MODIFY_LC.h"
 
 
-/// 取消按钮顶部的间隙 : 系统默认：5.0f  Custom By CoderMikeHe :10.0f
+/// 取消按钮顶部的间隙 : 系统默认：5.0f  Custom By Fingal Liu :10.0f
 static CGFloat const LCCancelButtonTopMargin = 10.0f;
 
 
@@ -315,7 +315,7 @@ static CGFloat const LCCancelButtonTopMargin = 10.0f;
     UIView *darkView                = [[UIView alloc] init];
     darkView.alpha                  = 0;
     darkView.userInteractionEnabled = NO;
-#if USER_MODIFY_LC_BY_CODERMIKEHE
+#if USER_MODIFY_LC_BY_FingalLiu
     darkView.backgroundColor        = LC_ACTION_SHEET_COLOR(0, 0, 0);
 #else
     darkView.backgroundColor        = LC_ACTION_SHEET_COLOR(46, 49, 50);
@@ -413,7 +413,7 @@ static CGFloat const LCCancelButtonTopMargin = 10.0f;
     cancelButton.titleLabel.font = self.buttonFont;
     [cancelButton setTitle:self.cancelButtonTitle forState:UIControlStateNormal];
     [cancelButton setTitleColor:self.buttonColor forState:UIControlStateNormal];
-#if USER_MODIFY_LC_BY_CODERMIKEHE
+#if USER_MODIFY_LC_BY_FingalLiu
     /// fix 掉通过 LCActionSheetConfig 配置actionsheet的bug
     if ([self.destructiveButtonIndexSet containsIndex:0]) {
         [cancelButton setTitleColor:self.destructiveButtonColor forState:UIControlStateNormal];

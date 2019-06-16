@@ -96,7 +96,7 @@
     
     _backButton = [[UIButton alloc] initWithFrame:CGRectZero];
     
-#if TZ_MODIFY_BY_CODERMIKEHE
+#if TZ_MODIFY_BY_FingalLiu
     [_backButton setImage:[UIImage imageNamed:@"nav_bar_back_icon_white"] forState:UIControlStateNormal];
 #else
     [_backButton setImage:[UIImage imageNamedFromMyBundle:@"navi_back"] forState:UIControlStateNormal];
@@ -252,8 +252,8 @@
     
     [self configCropView];
     
-    /// CoderMikeHe Fixed
-#if TZ_MODIFY_BY_CODERMIKEHE
+    /// Fingal Liu Fixed
+#if TZ_MODIFY_BY_FingalLiu
     [self.view bringSubviewToFront:_toolBar];
     [self.view bringSubviewToFront:_naviBar];
 #endif

@@ -11,6 +11,6 @@
 
 #define SDCycleScrollViewVersion 1.73
 
-#define SD_MODIFY_BY_CODERMIKEHE 1
+#define SD_MODIFY_BY_FingalLiu 1
 
 #endif /* SDCycleScrollView_MH_h */

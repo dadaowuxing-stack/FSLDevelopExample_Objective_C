@@ -10,6 +10,8 @@ target 'FSLDevelopExample' do
     pod 'SDWebImage'
     # 字典转模型 该项目使用YYModel
     pod 'MJExtension'                       , '3.0.13'
+    # 富文本
+    pod 'YYText'
     # 字典转模型
     pod 'YYModel'
     # 高性能的 iOS 异步图像加载框架。

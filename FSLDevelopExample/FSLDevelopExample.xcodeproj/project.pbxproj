@@ -41,6 +41,56 @@
 		B31E08B322A3FB3E009A69A4 /* FSLContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E08B222A3FB3E009A69A4 /* FSLContactsViewController.m */; };
 		B31E08B622A3FB5D009A69A4 /* FSLDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E08B522A3FB5D009A69A4 /* FSLDiscoverViewController.m */; };
 		B31E08B922A3FB72009A69A4 /* FSLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E08B822A3FB72009A69A4 /* FSLProfileViewController.m */; };
+		B34BB95C22B5ED550060D61A /* FSLMainFrameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB95722B5ED540060D61A /* FSLMainFrameViewModel.m */; };
+		B34BB95D22B5ED550060D61A /* FSLMainFrameItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB95A22B5ED540060D61A /* FSLMainFrameItemViewModel.m */; };
+		B34BB96622B5EE640060D61A /* FSLLiveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB96022B5EE640060D61A /* FSLLiveInfo.m */; };
+		B34BB96722B5EE640060D61A /* FSLHTTPService+Live.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB96122B5EE640060D61A /* FSLHTTPService+Live.m */; };
+		B34BB96822B5EE640060D61A /* FSLLiveRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB96522B5EE640060D61A /* FSLLiveRoom.m */; };
+		B34BB98C22B5F0B80060D61A /* FSLMomentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB96C22B5F0B80060D61A /* FSLMomentViewModel.m */; };
+		B34BB98D22B5F0B80060D61A /* FSLMomentAttitudesItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB96F22B5F0B80060D61A /* FSLMomentAttitudesItemViewModel.m */; };
+		B34BB98E22B5F0B80060D61A /* FSLMomentCommentItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB97122B5F0B80060D61A /* FSLMomentCommentItemViewModel.m */; };
+		B34BB98F22B5F0B80060D61A /* FSLMomentItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB97322B5F0B80060D61A /* FSLMomentItemViewModel.m */; };
+		B34BB99022B5F0B80060D61A /* FSLMomentContentItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB97522B5F0B80060D61A /* FSLMomentContentItemViewModel.m */; };
+		B34BB99122B5F0B80060D61A /* FSLMomentPhotoItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB97722B5F0B80060D61A /* FSLMomentPhotoItemViewModel.m */; };
+		B34BB99222B5F0B80060D61A /* FSLMomentProfileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB97922B5F0B80060D61A /* FSLMomentProfileViewModel.m */; };
+		B34BB99322B5F0B80060D61A /* FSLMomentReplyItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB97A22B5F0B80060D61A /* FSLMomentReplyItemViewModel.m */; };
+		B34BB99422B5F0B80060D61A /* FSLProfileInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB97E22B5F0B80060D61A /* FSLProfileInfoViewModel.m */; };
+		B34BB99522B5F0B80060D61A /* FSLDiscoverViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB98022B5F0B80060D61A /* FSLDiscoverViewModel.m */; };
+		B34BB99622B5F0B80060D61A /* FSLAddFriendsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB98422B5F0B80060D61A /* FSLAddFriendsViewModel.m */; };
+		B34BB99722B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB98822B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.m */; };
+		B34BB99822B5F0B80060D61A /* FSLSearchFriendsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB98A22B5F0B80060D61A /* FSLSearchFriendsViewModel.m */; };
+		B34BB99922B5F0B80060D61A /* FSLContactsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB98B22B5F0B80060D61A /* FSLContactsViewModel.m */; };
+		B34BB9AB22B5F53F0060D61A /* FSLMomentShareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB99B22B5F53F0060D61A /* FSLMomentShareInfo.m */; };
+		B34BB9AC22B5F53F0060D61A /* FSLPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB99C22B5F53F0060D61A /* FSLPicture.m */; };
+		B34BB9AD22B5F53F0060D61A /* FSLMoments.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB99D22B5F53F0060D61A /* FSLMoments.m */; };
+		B34BB9AE22B5F53F0060D61A /* FSLComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9A122B5F53F0060D61A /* FSLComment.m */; };
+		B34BB9AF22B5F53F0060D61A /* FSLMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9A222B5F53F0060D61A /* FSLMoment.m */; };
+		B34BB9B022B5F53F0060D61A /* NSMutableAttributedString+FSLMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9A622B5F53F0060D61A /* NSMutableAttributedString+FSLMoment.m */; };
+		B34BB9B122B5F53F0060D61A /* FSLPictureMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9A722B5F53F0060D61A /* FSLPictureMetadata.m */; };
+		B34BB9B222B5F53F0060D61A /* FSLMomentVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9A822B5F53F0060D61A /* FSLMomentVideo.m */; };
+		B34BB9EF22B5FF5C0060D61A /* FSLMoreInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9B622B5FF5B0060D61A /* FSLMoreInfoViewModel.m */; };
+		B34BB9F022B5FF5C0060D61A /* FSLAboutUsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9B822B5FF5B0060D61A /* FSLAboutUsViewModel.m */; };
+		B34BB9F122B5FF5C0060D61A /* FSLPrivacyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9BC22B5FF5B0060D61A /* FSLPrivacyViewModel.m */; };
+		B34BB9F222B5FF5C0060D61A /* FSLModifyNicknameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9BF22B5FF5B0060D61A /* FSLModifyNicknameViewModel.m */; };
+		B34BB9F722B5FF5C0060D61A /* FSLFreeInterruptionItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9CF22B5FF5B0060D61A /* FSLFreeInterruptionItemViewModel.m */; };
+		B34BB9FB22B5FF5C0060D61A /* FSLFeatureSignatureViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9D922B5FF5B0060D61A /* FSLFeatureSignatureViewModel.m */; };
+		B34BBA0022B5FF5C0060D61A /* FSLProfileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BB9E722B5FF5B0060D61A /* FSLProfileViewModel.m */; };
+		B34BBA0622B60C9E0060D61A /* FSLNotificationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA0522B60C9E0060D61A /* FSLNotificationViewModel.m */; };
+		B34BBA0922B60CBA0060D61A /* FSLGeneralViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA0722B60CB90060D61A /* FSLGeneralViewModel.m */; };
+		B34BBA0C22B61D820060D61A /* FSLAccountSecurityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA0B22B61D820060D61A /* FSLAccountSecurityViewModel.m */; };
+		B34BBA0F22B61DC60060D61A /* FSLLocationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA0D22B61DC50060D61A /* FSLLocationViewModel.m */; };
+		B34BBA1222B61E1F0060D61A /* FSLFreeInterruptionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA1022B61E1F0060D61A /* FSLFreeInterruptionViewModel.m */; };
+		B34BBA1522B61E7F0060D61A /* FSLGenderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA1422B61E7F0060D61A /* FSLGenderViewModel.m */; };
+		B34BBA1822B620070060D61A /* FSLEmotionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA1622B620060060D61A /* FSLEmotionViewModel.m */; };
+		B34BBA1D22B6208C0060D61A /* FSLUsefulEmotionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA1922B6208B0060D61A /* FSLUsefulEmotionViewModel.m */; };
+		B34BBA1E22B6208C0060D61A /* FSLMoreEmotionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA1C22B6208C0060D61A /* FSLMoreEmotionViewModel.m */; };
+		B34BBA2322B621470060D61A /* FSLPlugViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA1F22B621470060D61A /* FSLPlugViewModel.m */; };
+		B34BBA2422B621470060D61A /* FSLPlugDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA2222B621470060D61A /* FSLPlugDetailViewModel.m */; };
+		B34BBA2722B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA2622B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.m */; };
+		B34BBA2A22B622920060D61A /* FSLUserInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA2822B622920060D61A /* FSLUserInfoViewModel.m */; };
+		B34BBA2D22B622F70060D61A /* FSLSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA2B22B622F60060D61A /* FSLSettingViewModel.m */; };
+		B34BBA3022B623510060D61A /* FSLGenderItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA2E22B623500060D61A /* FSLGenderItemViewModel.m */; };
+		B34BBA3322B624140060D61A /* FSLSegmentedControlViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BBA3222B624140060D61A /* FSLSegmentedControlViewModel.m */; };
 		B35BCD7922A22F88003C3983 /* FSLNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7822A22F88003C3983 /* FSLNavigationControllerStack.m */; };
 		B35BCD7C22A230AD003C3983 /* FSLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7B22A230AC003C3983 /* FSLNavigationController.m */; };
 		B35BCD7F22A23103003C3983 /* FSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35BCD7E22A23103003C3983 /* FSLViewController.m */; };
@@ -245,6 +295,106 @@
 		B31E08B522A3FB5D009A69A4 /* FSLDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLDiscoverViewController.m; sourceTree = "<group>"; };
 		B31E08B722A3FB72009A69A4 /* FSLProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLProfileViewController.h; sourceTree = "<group>"; };
 		B31E08B822A3FB72009A69A4 /* FSLProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLProfileViewController.m; sourceTree = "<group>"; };
+		B34BB95722B5ED540060D61A /* FSLMainFrameViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMainFrameViewModel.m; sourceTree = "<group>"; };
+		B34BB95822B5ED540060D61A /* FSLMainFrameViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMainFrameViewModel.h; sourceTree = "<group>"; };
+		B34BB95A22B5ED540060D61A /* FSLMainFrameItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMainFrameItemViewModel.m; sourceTree = "<group>"; };
+		B34BB95E22B5ED900060D61A /* FSLMainFrameItemViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLMainFrameItemViewModel.h; sourceTree = "<group>"; };
+		B34BB96022B5EE640060D61A /* FSLLiveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLiveInfo.m; sourceTree = "<group>"; };
+		B34BB96122B5EE640060D61A /* FSLHTTPService+Live.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSLHTTPService+Live.m"; sourceTree = "<group>"; };
+		B34BB96222B5EE640060D61A /* FSLLiveRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLiveRoom.h; sourceTree = "<group>"; };
+		B34BB96322B5EE640060D61A /* FSLLiveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLiveInfo.h; sourceTree = "<group>"; };
+		B34BB96422B5EE640060D61A /* FSLHTTPService+Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSLHTTPService+Live.h"; sourceTree = "<group>"; };
+		B34BB96522B5EE640060D61A /* FSLLiveRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLiveRoom.m; sourceTree = "<group>"; };
+		B34BB96A22B5F0B80060D61A /* FSLDiscoverViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLDiscoverViewModel.h; sourceTree = "<group>"; };
+		B34BB96C22B5F0B80060D61A /* FSLMomentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentViewModel.m; sourceTree = "<group>"; };
+		B34BB96D22B5F0B80060D61A /* FSLMomentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentViewModel.h; sourceTree = "<group>"; };
+		B34BB96F22B5F0B80060D61A /* FSLMomentAttitudesItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentAttitudesItemViewModel.m; sourceTree = "<group>"; };
+		B34BB97022B5F0B80060D61A /* FSLMomentPhotoItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentPhotoItemViewModel.h; sourceTree = "<group>"; };
+		B34BB97122B5F0B80060D61A /* FSLMomentCommentItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentCommentItemViewModel.m; sourceTree = "<group>"; };
+		B34BB97222B5F0B80060D61A /* FSLMomentProfileViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentProfileViewModel.h; sourceTree = "<group>"; };
+		B34BB97322B5F0B80060D61A /* FSLMomentItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentItemViewModel.m; sourceTree = "<group>"; };
+		B34BB97422B5F0B80060D61A /* FSLMomentReplyItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentReplyItemViewModel.h; sourceTree = "<group>"; };
+		B34BB97522B5F0B80060D61A /* FSLMomentContentItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentContentItemViewModel.m; sourceTree = "<group>"; };
+		B34BB97622B5F0B80060D61A /* FSLMomentCommentItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentCommentItemViewModel.h; sourceTree = "<group>"; };
+		B34BB97722B5F0B80060D61A /* FSLMomentPhotoItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentPhotoItemViewModel.m; sourceTree = "<group>"; };
+		B34BB97822B5F0B80060D61A /* FSLMomentAttitudesItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentAttitudesItemViewModel.h; sourceTree = "<group>"; };
+		B34BB97922B5F0B80060D61A /* FSLMomentProfileViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentProfileViewModel.m; sourceTree = "<group>"; };
+		B34BB97A22B5F0B80060D61A /* FSLMomentReplyItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentReplyItemViewModel.m; sourceTree = "<group>"; };
+		B34BB97B22B5F0B80060D61A /* FSLMomentItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentItemViewModel.h; sourceTree = "<group>"; };
+		B34BB97C22B5F0B80060D61A /* FSLMomentContentItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentContentItemViewModel.h; sourceTree = "<group>"; };
+		B34BB97E22B5F0B80060D61A /* FSLProfileInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileInfoViewModel.m; sourceTree = "<group>"; };
+		B34BB97F22B5F0B80060D61A /* FSLProfileInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileInfoViewModel.h; sourceTree = "<group>"; };
+		B34BB98022B5F0B80060D61A /* FSLDiscoverViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLDiscoverViewModel.m; sourceTree = "<group>"; };
+		B34BB98222B5F0B80060D61A /* FSLContactsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLContactsViewModel.h; sourceTree = "<group>"; };
+		B34BB98422B5F0B80060D61A /* FSLAddFriendsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLAddFriendsViewModel.m; sourceTree = "<group>"; };
+		B34BB98522B5F0B80060D61A /* FSLSearchFriendsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLSearchFriendsViewModel.h; sourceTree = "<group>"; };
+		B34BB98722B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLSearchFriendsHeaderViewModel.h; sourceTree = "<group>"; };
+		B34BB98822B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLSearchFriendsHeaderViewModel.m; sourceTree = "<group>"; };
+		B34BB98922B5F0B80060D61A /* FSLAddFriendsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLAddFriendsViewModel.h; sourceTree = "<group>"; };
+		B34BB98A22B5F0B80060D61A /* FSLSearchFriendsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLSearchFriendsViewModel.m; sourceTree = "<group>"; };
+		B34BB98B22B5F0B80060D61A /* FSLContactsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLContactsViewModel.m; sourceTree = "<group>"; };
+		B34BB99B22B5F53F0060D61A /* FSLMomentShareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentShareInfo.m; sourceTree = "<group>"; };
+		B34BB99C22B5F53F0060D61A /* FSLPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLPicture.m; sourceTree = "<group>"; };
+		B34BB99D22B5F53F0060D61A /* FSLMoments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMoments.m; sourceTree = "<group>"; };
+		B34BB99E22B5F53F0060D61A /* FSLMomentVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentVideo.h; sourceTree = "<group>"; };
+		B34BB99F22B5F53F0060D61A /* FSLPictureMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLPictureMetadata.h; sourceTree = "<group>"; };
+		B34BB9A022B5F53F0060D61A /* NSMutableAttributedString+FSLMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+FSLMoment.h"; sourceTree = "<group>"; };
+		B34BB9A122B5F53F0060D61A /* FSLComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLComment.m; sourceTree = "<group>"; };
+		B34BB9A222B5F53F0060D61A /* FSLMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMoment.m; sourceTree = "<group>"; };
+		B34BB9A322B5F53F0060D61A /* FSLMoments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMoments.h; sourceTree = "<group>"; };
+		B34BB9A422B5F53F0060D61A /* FSLPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLPicture.h; sourceTree = "<group>"; };
+		B34BB9A522B5F53F0060D61A /* FSLMomentShareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMomentShareInfo.h; sourceTree = "<group>"; };
+		B34BB9A622B5F53F0060D61A /* NSMutableAttributedString+FSLMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+FSLMoment.m"; sourceTree = "<group>"; };
+		B34BB9A722B5F53F0060D61A /* FSLPictureMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLPictureMetadata.m; sourceTree = "<group>"; };
+		B34BB9A822B5F53F0060D61A /* FSLMomentVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMomentVideo.m; sourceTree = "<group>"; };
+		B34BB9A922B5F53F0060D61A /* FSLComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLComment.h; sourceTree = "<group>"; };
+		B34BB9AA22B5F53F0060D61A /* FSLMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMoment.h; sourceTree = "<group>"; };
+		B34BB9B522B5FF5B0060D61A /* FSLMoreInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMoreInfoViewModel.h; sourceTree = "<group>"; };
+		B34BB9B622B5FF5B0060D61A /* FSLMoreInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMoreInfoViewModel.m; sourceTree = "<group>"; };
+		B34BB9B822B5FF5B0060D61A /* FSLAboutUsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLAboutUsViewModel.m; sourceTree = "<group>"; };
+		B34BB9B922B5FF5B0060D61A /* FSLAboutUsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLAboutUsViewModel.h; sourceTree = "<group>"; };
+		B34BB9BB22B5FF5B0060D61A /* FSLPrivacyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLPrivacyViewModel.h; sourceTree = "<group>"; };
+		B34BB9BC22B5FF5B0060D61A /* FSLPrivacyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLPrivacyViewModel.m; sourceTree = "<group>"; };
+		B34BB9BE22B5FF5B0060D61A /* FSLModifyNicknameViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLModifyNicknameViewModel.h; sourceTree = "<group>"; };
+		B34BB9BF22B5FF5B0060D61A /* FSLModifyNicknameViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLModifyNicknameViewModel.m; sourceTree = "<group>"; };
+		B34BB9CF22B5FF5B0060D61A /* FSLFreeInterruptionItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLFreeInterruptionItemViewModel.m; sourceTree = "<group>"; };
+		B34BB9D022B5FF5B0060D61A /* FSLFreeInterruptionItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLFreeInterruptionItemViewModel.h; sourceTree = "<group>"; };
+		B34BB9D922B5FF5B0060D61A /* FSLFeatureSignatureViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLFeatureSignatureViewModel.m; sourceTree = "<group>"; };
+		B34BB9DA22B5FF5B0060D61A /* FSLFeatureSignatureViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLFeatureSignatureViewModel.h; sourceTree = "<group>"; };
+		B34BB9DB22B5FF5B0060D61A /* FSLProfileViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLProfileViewModel.h; sourceTree = "<group>"; };
+		B34BB9E722B5FF5B0060D61A /* FSLProfileViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLProfileViewModel.m; sourceTree = "<group>"; };
+		B34BBA0422B60C9E0060D61A /* FSLNotificationViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLNotificationViewModel.h; sourceTree = "<group>"; };
+		B34BBA0522B60C9E0060D61A /* FSLNotificationViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLNotificationViewModel.m; sourceTree = "<group>"; };
+		B34BBA0722B60CB90060D61A /* FSLGeneralViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLGeneralViewModel.m; sourceTree = "<group>"; };
+		B34BBA0822B60CBA0060D61A /* FSLGeneralViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLGeneralViewModel.h; sourceTree = "<group>"; };
+		B34BBA0A22B61D820060D61A /* FSLAccountSecurityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLAccountSecurityViewModel.h; sourceTree = "<group>"; };
+		B34BBA0B22B61D820060D61A /* FSLAccountSecurityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLAccountSecurityViewModel.m; sourceTree = "<group>"; };
+		B34BBA0D22B61DC50060D61A /* FSLLocationViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLLocationViewModel.m; sourceTree = "<group>"; };
+		B34BBA0E22B61DC60060D61A /* FSLLocationViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLLocationViewModel.h; sourceTree = "<group>"; };
+		B34BBA1022B61E1F0060D61A /* FSLFreeInterruptionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLFreeInterruptionViewModel.m; sourceTree = "<group>"; };
+		B34BBA1122B61E1F0060D61A /* FSLFreeInterruptionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLFreeInterruptionViewModel.h; sourceTree = "<group>"; };
+		B34BBA1322B61E7F0060D61A /* FSLGenderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLGenderViewModel.h; sourceTree = "<group>"; };
+		B34BBA1422B61E7F0060D61A /* FSLGenderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLGenderViewModel.m; sourceTree = "<group>"; };
+		B34BBA1622B620060060D61A /* FSLEmotionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLEmotionViewModel.m; sourceTree = "<group>"; };
+		B34BBA1722B620070060D61A /* FSLEmotionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLEmotionViewModel.h; sourceTree = "<group>"; };
+		B34BBA1922B6208B0060D61A /* FSLUsefulEmotionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLUsefulEmotionViewModel.m; sourceTree = "<group>"; };
+		B34BBA1A22B6208B0060D61A /* FSLMoreEmotionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLMoreEmotionViewModel.h; sourceTree = "<group>"; };
+		B34BBA1B22B6208B0060D61A /* FSLUsefulEmotionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLUsefulEmotionViewModel.h; sourceTree = "<group>"; };
+		B34BBA1C22B6208C0060D61A /* FSLMoreEmotionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLMoreEmotionViewModel.m; sourceTree = "<group>"; };
+		B34BBA1F22B621470060D61A /* FSLPlugViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLPlugViewModel.m; sourceTree = "<group>"; };
+		B34BBA2022B621470060D61A /* FSLPlugDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLPlugDetailViewModel.h; sourceTree = "<group>"; };
+		B34BBA2122B621470060D61A /* FSLPlugViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLPlugViewModel.h; sourceTree = "<group>"; };
+		B34BBA2222B621470060D61A /* FSLPlugDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLPlugDetailViewModel.m; sourceTree = "<group>"; };
+		B34BBA2522B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLCommonProfileHeaderItemViewModel.h; sourceTree = "<group>"; };
+		B34BBA2622B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLCommonProfileHeaderItemViewModel.m; sourceTree = "<group>"; };
+		B34BBA2822B622920060D61A /* FSLUserInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLUserInfoViewModel.m; sourceTree = "<group>"; };
+		B34BBA2922B622920060D61A /* FSLUserInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLUserInfoViewModel.h; sourceTree = "<group>"; };
+		B34BBA2B22B622F60060D61A /* FSLSettingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLSettingViewModel.m; sourceTree = "<group>"; };
+		B34BBA2C22B622F70060D61A /* FSLSettingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLSettingViewModel.h; sourceTree = "<group>"; };
+		B34BBA2E22B623500060D61A /* FSLGenderItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLGenderItemViewModel.m; sourceTree = "<group>"; };
+		B34BBA2F22B623500060D61A /* FSLGenderItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLGenderItemViewModel.h; sourceTree = "<group>"; };
+		B34BBA3122B624140060D61A /* FSLSegmentedControlViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLSegmentedControlViewModel.h; sourceTree = "<group>"; };
+		B34BBA3222B624140060D61A /* FSLSegmentedControlViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLSegmentedControlViewModel.m; sourceTree = "<group>"; };
 		B35BCD7722A22F88003C3983 /* FSLNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLNavigationControllerStack.h; sourceTree = "<group>"; };
 		B35BCD7822A22F88003C3983 /* FSLNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLNavigationControllerStack.m; sourceTree = "<group>"; };
 		B35BCD7A22A230AC003C3983 /* FSLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLNavigationController.h; sourceTree = "<group>"; };
@@ -679,6 +829,328 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		B34BB95622B5ED540060D61A /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB95722B5ED540060D61A /* FSLMainFrameViewModel.m */,
+				B34BB95822B5ED540060D61A /* FSLMainFrameViewModel.h */,
+				B34BB95922B5ED540060D61A /* ItemViewModel */,
+			);
+			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		B34BB95922B5ED540060D61A /* ItemViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB95A22B5ED540060D61A /* FSLMainFrameItemViewModel.m */,
+				B34BB95E22B5ED900060D61A /* FSLMainFrameItemViewModel.h */,
+			);
+			path = ItemViewModel;
+			sourceTree = "<group>";
+		};
+		B34BB95F22B5EE640060D61A /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB96422B5EE640060D61A /* FSLHTTPService+Live.h */,
+				B34BB96122B5EE640060D61A /* FSLHTTPService+Live.m */,
+				B34BB96322B5EE640060D61A /* FSLLiveInfo.h */,
+				B34BB96022B5EE640060D61A /* FSLLiveInfo.m */,
+				B34BB96222B5EE640060D61A /* FSLLiveRoom.h */,
+				B34BB96522B5EE640060D61A /* FSLLiveRoom.m */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		B34BB96922B5F0B80060D61A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB96A22B5F0B80060D61A /* FSLDiscoverViewModel.h */,
+				B34BB98022B5F0B80060D61A /* FSLDiscoverViewModel.m */,
+				B34BB96B22B5F0B80060D61A /* Moment */,
+				B34BB97D22B5F0B80060D61A /* ProfileInfo */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B34BB96B22B5F0B80060D61A /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB96E22B5F0B80060D61A /* ItemViewModel */,
+				B34BB96D22B5F0B80060D61A /* FSLMomentViewModel.h */,
+				B34BB96C22B5F0B80060D61A /* FSLMomentViewModel.m */,
+			);
+			path = Moment;
+			sourceTree = "<group>";
+		};
+		B34BB96E22B5F0B80060D61A /* ItemViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB97822B5F0B80060D61A /* FSLMomentAttitudesItemViewModel.h */,
+				B34BB96F22B5F0B80060D61A /* FSLMomentAttitudesItemViewModel.m */,
+				B34BB97622B5F0B80060D61A /* FSLMomentCommentItemViewModel.h */,
+				B34BB97122B5F0B80060D61A /* FSLMomentCommentItemViewModel.m */,
+				B34BB97C22B5F0B80060D61A /* FSLMomentContentItemViewModel.h */,
+				B34BB97522B5F0B80060D61A /* FSLMomentContentItemViewModel.m */,
+				B34BB97B22B5F0B80060D61A /* FSLMomentItemViewModel.h */,
+				B34BB97322B5F0B80060D61A /* FSLMomentItemViewModel.m */,
+				B34BB97022B5F0B80060D61A /* FSLMomentPhotoItemViewModel.h */,
+				B34BB97722B5F0B80060D61A /* FSLMomentPhotoItemViewModel.m */,
+				B34BB97222B5F0B80060D61A /* FSLMomentProfileViewModel.h */,
+				B34BB97922B5F0B80060D61A /* FSLMomentProfileViewModel.m */,
+				B34BB97422B5F0B80060D61A /* FSLMomentReplyItemViewModel.h */,
+				B34BB97A22B5F0B80060D61A /* FSLMomentReplyItemViewModel.m */,
+			);
+			path = ItemViewModel;
+			sourceTree = "<group>";
+		};
+		B34BB97D22B5F0B80060D61A /* ProfileInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB97E22B5F0B80060D61A /* FSLProfileInfoViewModel.m */,
+				B34BB97F22B5F0B80060D61A /* FSLProfileInfoViewModel.h */,
+			);
+			path = ProfileInfo;
+			sourceTree = "<group>";
+		};
+		B34BB98122B5F0B80060D61A /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB98322B5F0B80060D61A /* AddFriends */,
+				B34BB98222B5F0B80060D61A /* FSLContactsViewModel.h */,
+				B34BB98B22B5F0B80060D61A /* FSLContactsViewModel.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		B34BB98322B5F0B80060D61A /* AddFriends */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB98622B5F0B80060D61A /* ItemClass */,
+				B34BB98922B5F0B80060D61A /* FSLAddFriendsViewModel.h */,
+				B34BB98422B5F0B80060D61A /* FSLAddFriendsViewModel.m */,
+				B34BB98522B5F0B80060D61A /* FSLSearchFriendsViewModel.h */,
+				B34BB98A22B5F0B80060D61A /* FSLSearchFriendsViewModel.m */,
+			);
+			path = AddFriends;
+			sourceTree = "<group>";
+		};
+		B34BB98622B5F0B80060D61A /* ItemClass */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB98722B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.h */,
+				B34BB98822B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.m */,
+			);
+			path = ItemClass;
+			sourceTree = "<group>";
+		};
+		B34BB99A22B5F53F0060D61A /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9A922B5F53F0060D61A /* FSLComment.h */,
+				B34BB9A122B5F53F0060D61A /* FSLComment.m */,
+				B34BB9AA22B5F53F0060D61A /* FSLMoment.h */,
+				B34BB9A222B5F53F0060D61A /* FSLMoment.m */,
+				B34BB9A322B5F53F0060D61A /* FSLMoments.h */,
+				B34BB99D22B5F53F0060D61A /* FSLMoments.m */,
+				B34BB9A522B5F53F0060D61A /* FSLMomentShareInfo.h */,
+				B34BB99B22B5F53F0060D61A /* FSLMomentShareInfo.m */,
+				B34BB99E22B5F53F0060D61A /* FSLMomentVideo.h */,
+				B34BB9A822B5F53F0060D61A /* FSLMomentVideo.m */,
+				B34BB9A422B5F53F0060D61A /* FSLPicture.h */,
+				B34BB99C22B5F53F0060D61A /* FSLPicture.m */,
+				B34BB99F22B5F53F0060D61A /* FSLPictureMetadata.h */,
+				B34BB9A722B5F53F0060D61A /* FSLPictureMetadata.m */,
+				B34BB9A022B5F53F0060D61A /* NSMutableAttributedString+FSLMoment.h */,
+				B34BB9A622B5F53F0060D61A /* NSMutableAttributedString+FSLMoment.m */,
+			);
+			path = Moment;
+			sourceTree = "<group>";
+		};
+		B34BB9B322B5FF5B0060D61A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9B722B5FF5B0060D61A /* AboutUs */,
+				B34BB9C622B5FF5B0060D61A /* AccountSecurity */,
+				B34BB9E822B5FF5B0060D61A /* Emotion */,
+				B34BB9D822B5FF5B0060D61A /* FeatureSignature */,
+				B34BB9CC22B5FF5B0060D61A /* FreeInterruption */,
+				B34BB9D222B5FF5B0060D61A /* Gender */,
+				B34BB9C022B5FF5B0060D61A /* General */,
+				B34BB9C922B5FF5B0060D61A /* Location */,
+				B34BB9DB22B5FF5B0060D61A /* FSLProfileViewModel.h */,
+				B34BB9E722B5FF5B0060D61A /* FSLProfileViewModel.m */,
+				B34BB9BD22B5FF5B0060D61A /* ModifyNickname */,
+				B34BB9B422B5FF5B0060D61A /* MoreInfo */,
+				B34BB9C322B5FF5B0060D61A /* Notification */,
+				B34BB9E222B5FF5B0060D61A /* Plug */,
+				B34BB9BA22B5FF5B0060D61A /* Privacy */,
+				B34BB9DF22B5FF5B0060D61A /* Setting */,
+				B34BB9DC22B5FF5B0060D61A /* UserInfo */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B34BB9B422B5FF5B0060D61A /* MoreInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9B522B5FF5B0060D61A /* FSLMoreInfoViewModel.h */,
+				B34BB9B622B5FF5B0060D61A /* FSLMoreInfoViewModel.m */,
+			);
+			path = MoreInfo;
+			sourceTree = "<group>";
+		};
+		B34BB9B722B5FF5B0060D61A /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9B822B5FF5B0060D61A /* FSLAboutUsViewModel.m */,
+				B34BB9B922B5FF5B0060D61A /* FSLAboutUsViewModel.h */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		B34BB9BA22B5FF5B0060D61A /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9BB22B5FF5B0060D61A /* FSLPrivacyViewModel.h */,
+				B34BB9BC22B5FF5B0060D61A /* FSLPrivacyViewModel.m */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		B34BB9BD22B5FF5B0060D61A /* ModifyNickname */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9BE22B5FF5B0060D61A /* FSLModifyNicknameViewModel.h */,
+				B34BB9BF22B5FF5B0060D61A /* FSLModifyNicknameViewModel.m */,
+			);
+			path = ModifyNickname;
+			sourceTree = "<group>";
+		};
+		B34BB9C022B5FF5B0060D61A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA0822B60CBA0060D61A /* FSLGeneralViewModel.h */,
+				B34BBA0722B60CB90060D61A /* FSLGeneralViewModel.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		B34BB9C322B5FF5B0060D61A /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA0422B60C9E0060D61A /* FSLNotificationViewModel.h */,
+				B34BBA0522B60C9E0060D61A /* FSLNotificationViewModel.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		B34BB9C622B5FF5B0060D61A /* AccountSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA0A22B61D820060D61A /* FSLAccountSecurityViewModel.h */,
+				B34BBA0B22B61D820060D61A /* FSLAccountSecurityViewModel.m */,
+			);
+			path = AccountSecurity;
+			sourceTree = "<group>";
+		};
+		B34BB9C922B5FF5B0060D61A /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA0E22B61DC60060D61A /* FSLLocationViewModel.h */,
+				B34BBA0D22B61DC50060D61A /* FSLLocationViewModel.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		B34BB9CC22B5FF5B0060D61A /* FreeInterruption */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA1122B61E1F0060D61A /* FSLFreeInterruptionViewModel.h */,
+				B34BBA1022B61E1F0060D61A /* FSLFreeInterruptionViewModel.m */,
+				B34BB9CE22B5FF5B0060D61A /* ItemViewModel */,
+			);
+			path = FreeInterruption;
+			sourceTree = "<group>";
+		};
+		B34BB9CE22B5FF5B0060D61A /* ItemViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9D022B5FF5B0060D61A /* FSLFreeInterruptionItemViewModel.h */,
+				B34BB9CF22B5FF5B0060D61A /* FSLFreeInterruptionItemViewModel.m */,
+			);
+			path = ItemViewModel;
+			sourceTree = "<group>";
+		};
+		B34BB9D222B5FF5B0060D61A /* Gender */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA1322B61E7F0060D61A /* FSLGenderViewModel.h */,
+				B34BBA1422B61E7F0060D61A /* FSLGenderViewModel.m */,
+				B34BB9D522B5FF5B0060D61A /* ItemViewModel */,
+			);
+			path = Gender;
+			sourceTree = "<group>";
+		};
+		B34BB9D522B5FF5B0060D61A /* ItemViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA2F22B623500060D61A /* FSLGenderItemViewModel.h */,
+				B34BBA2E22B623500060D61A /* FSLGenderItemViewModel.m */,
+			);
+			path = ItemViewModel;
+			sourceTree = "<group>";
+		};
+		B34BB9D822B5FF5B0060D61A /* FeatureSignature */ = {
+			isa = PBXGroup;
+			children = (
+				B34BB9DA22B5FF5B0060D61A /* FSLFeatureSignatureViewModel.h */,
+				B34BB9D922B5FF5B0060D61A /* FSLFeatureSignatureViewModel.m */,
+			);
+			path = FeatureSignature;
+			sourceTree = "<group>";
+		};
+		B34BB9DC22B5FF5B0060D61A /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA2922B622920060D61A /* FSLUserInfoViewModel.h */,
+				B34BBA2822B622920060D61A /* FSLUserInfoViewModel.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		B34BB9DF22B5FF5B0060D61A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA2C22B622F70060D61A /* FSLSettingViewModel.h */,
+				B34BBA2B22B622F60060D61A /* FSLSettingViewModel.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B34BB9E222B5FF5B0060D61A /* Plug */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA2022B621470060D61A /* FSLPlugDetailViewModel.h */,
+				B34BBA2222B621470060D61A /* FSLPlugDetailViewModel.m */,
+				B34BBA2122B621470060D61A /* FSLPlugViewModel.h */,
+				B34BBA1F22B621470060D61A /* FSLPlugViewModel.m */,
+			);
+			path = Plug;
+			sourceTree = "<group>";
+		};
+		B34BB9E822B5FF5B0060D61A /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				B34BBA1722B620070060D61A /* FSLEmotionViewModel.h */,
+				B34BBA1622B620060060D61A /* FSLEmotionViewModel.m */,
+				B34BBA1A22B6208B0060D61A /* FSLMoreEmotionViewModel.h */,
+				B34BBA1C22B6208C0060D61A /* FSLMoreEmotionViewModel.m */,
+				B34BBA1B22B6208B0060D61A /* FSLUsefulEmotionViewModel.h */,
+				B34BBA1922B6208B0060D61A /* FSLUsefulEmotionViewModel.m */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
 		B35BCD3922A21D48003C3983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -706,6 +1178,10 @@
 		B35BCD3B22A21EFB003C3983 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B34BB9B322B5FF5B0060D61A /* Profile */,
+				B34BB98122B5F0B80060D61A /* Contacts */,
+				B34BB96922B5F0B80060D61A /* Discover */,
+				B34BB95622B5ED540060D61A /* MainFrame */,
 				B35BCF7A22A29999003C3983 /* HomePage */,
 				B35BCEB422A28CFB003C3983 /* Login */,
 				B35BCECC22A28CFB003C3983 /* NewFeature */,
@@ -718,6 +1194,8 @@
 		B35BCD3C22A21EFB003C3983 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B34BB99A22B5F53F0060D61A /* Moment */,
+				B34BB95F22B5EE640060D61A /* Live */,
 				B35BCEF222A28FDB003C3983 /* Emoticon */,
 				B35BCE1522A263B3003C3983 /* User */,
 				B35BCDF122A25CD8003C3983 /* BaseClass */,
@@ -925,6 +1403,8 @@
 				B35BCE3822A27033003C3983 /* FSLCommonViewModel.m */,
 				B35BCF7E22A299E6003C3983 /* FSLTabBarViewModel.h */,
 				B35BCF7F22A299E6003C3983 /* FSLTabBarViewModel.m */,
+				B34BBA3122B624140060D61A /* FSLSegmentedControlViewModel.h */,
+				B34BBA3222B624140060D61A /* FSLSegmentedControlViewModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -1142,6 +1622,8 @@
 				B35BCE6022A279C3003C3983 /* FSLCommonSwitchItemViewModel.m */,
 				B35BCE6222A27A2F003C3983 /* FSLCommonValueItemViewModel.h */,
 				B35BCE6322A27A2F003C3983 /* FSLCommonValueItemViewModel.m */,
+				B34BBA2522B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.h */,
+				B34BBA2622B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1689,22 +2171,30 @@
 				B35BCF6222A291DA003C3983 /* LCActionSheet.m in Sources */,
 				B35BCE5B22A2796D003C3983 /* FSLCommonQRCodeItemViewModel.m in Sources */,
 				B35BCF5122A291DA003C3983 /* IDMTapDetectingImageView.m in Sources */,
+				B34BBA1D22B6208C0060D61A /* FSLUsefulEmotionViewModel.m in Sources */,
 				B31E084022A3D561009A69A4 /* FSLButton.m in Sources */,
 				B35BCDF422A25CE5003C3983 /* FSLObject.m in Sources */,
 				B35BCF5322A291DA003C3983 /* IDMPhoto.m in Sources */,
 				B35BCF6C22A291DA003C3983 /* TZImageManager.m in Sources */,
+				B34BB99222B5F0B80060D61A /* FSLMomentProfileViewModel.m in Sources */,
 				B35BCD8B22A23284003C3983 /* FSLCommonViewController.m in Sources */,
 				B31E082922A3C891009A69A4 /* FSLLoginPasswordView.m in Sources */,
 				B35BCF7922A2981D003C3983 /* UIAlertController+Color.m in Sources */,
 				B35BCE5222A2788E003C3983 /* FSLCommonCell.m in Sources */,
+				B34BB9F222B5FF5C0060D61A /* FSLModifyNicknameViewModel.m in Sources */,
 				B35BCEF722A28FDC003C3983 /* FSLEmoticonGroup.m in Sources */,
+				B34BB99922B5F0B80060D61A /* FSLContactsViewModel.m in Sources */,
 				B35BCF6F22A291DA003C3983 /* TZImagePickerController.m in Sources */,
+				B34BB9F022B5FF5C0060D61A /* FSLAboutUsViewModel.m in Sources */,
 				B35BCD7922A22F88003C3983 /* FSLNavigationControllerStack.m in Sources */,
 				B35BCF5C22A291DA003C3983 /* TAAnimatedDotView.m in Sources */,
 				B35BCEF122A28E38003C3983 /* FSLPhotoManager.m in Sources */,
 				B31E080722A3C1E1009A69A4 /* FSLBootLoginViewController.m in Sources */,
 				B31E081622A3C7DE009A69A4 /* UISearchBar+Extension.m in Sources */,
+				B34BBA0F22B61DC60060D61A /* FSLLocationViewModel.m in Sources */,
+				B34BBA3022B623510060D61A /* FSLGenderItemViewModel.m in Sources */,
 				B35BCDBA22A233A6003C3983 /* FSLMonitorLogView.m in Sources */,
+				B34BB9AE22B5F53F0060D61A /* FSLComment.m in Sources */,
 				B35BCF6322A291DA003C3983 /* TZImageCropManager.m in Sources */,
 				B31E080522A3C1E1009A69A4 /* FSLLoginViewController.m in Sources */,
 				B35BCE5822A27935003C3983 /* FSLCommonAvatarItemViewModel.m in Sources */,
@@ -1715,7 +2205,12 @@
 				B35BCDB522A233A6003C3983 /* FSLWidgetDataSource.m in Sources */,
 				B35BCEEE22A28E38003C3983 /* FSLFileManager.m in Sources */,
 				B35BCF6522A291DA003C3983 /* TZVideoPlayerController.m in Sources */,
+				B34BBA3322B624140060D61A /* FSLSegmentedControlViewModel.m in Sources */,
 				B35BCEA322A28AA7003C3983 /* YYTimer.m in Sources */,
+				B34BB9AD22B5F53F0060D61A /* FSLMoments.m in Sources */,
+				B34BBA0922B60CBA0060D61A /* FSLGeneralViewModel.m in Sources */,
+				B34BB99322B5F0B80060D61A /* FSLMomentReplyItemViewModel.m in Sources */,
+				B34BB9FB22B5FF5C0060D61A /* FSLFeatureSignatureViewModel.m in Sources */,
 				B35BCF5422A291DA003C3983 /* IDMZoomingScrollView.m in Sources */,
 				B35BCDE722A23D05003C3983 /* UIFont+Extension.m in Sources */,
 				B31E082B22A3C891009A69A4 /* FSLLoginCaptchaView.m in Sources */,
@@ -1733,14 +2228,21 @@
 				B35BCED622A28CFB003C3983 /* FSLLoginViewModel.m in Sources */,
 				B35BCDCA22A23554003C3983 /* FSLConstant.m in Sources */,
 				B35BCE4E22A27733003C3983 /* NSString+SBExtension.m in Sources */,
+				B34BB95C22B5ED550060D61A /* FSLMainFrameViewModel.m in Sources */,
 				B35BCE1C22A26459003C3983 /* NSError+ModelException.m in Sources */,
 				B35BCE4A22A27535003C3983 /* FSLCommonFooterView.m in Sources */,
 				B35BCE2422A2662D003C3983 /* NSObject+Alert.m in Sources */,
 				B35BCED722A28CFB003C3983 /* FSLLanguageItemViewModel.m in Sources */,
+				B34BB96822B5EE640060D61A /* FSLLiveRoom.m in Sources */,
+				B34BBA2422B621470060D61A /* FSLPlugDetailViewModel.m in Sources */,
 				B31E083222A3CCAF009A69A4 /* NSString+Size.m in Sources */,
 				B35BCDB922A233A6003C3983 /* FSLMonitorChartView.m in Sources */,
 				B35BCF5822A291DA003C3983 /* UIView+SDExtension.m in Sources */,
 				B35BCE2B22A26844003C3983 /* SAMKeychain+Util.m in Sources */,
+				B34BBA1222B61E1F0060D61A /* FSLFreeInterruptionViewModel.m in Sources */,
+				B34BB99722B5F0B80060D61A /* FSLSearchFriendsHeaderViewModel.m in Sources */,
+				B34BBA1522B61E7F0060D61A /* FSLGenderViewModel.m in Sources */,
+				B34BBA2322B621470060D61A /* FSLPlugViewModel.m in Sources */,
 				B35BCE0122A25F31003C3983 /* RACSignal+HTTPServiceAdditions.m in Sources */,
 				B35BCF7122A291DA003C3983 /* TZGifPhotoPreviewController.m in Sources */,
 				B31E080822A3C1E1009A69A4 /* FSLCommitViewController.m in Sources */,
@@ -1760,35 +2262,50 @@
 				B35BCE3622A26B52003C3983 /* FSLTableView.m in Sources */,
 				B35BCDBF22A233A6003C3983 /* NSTimer+MExtension.m in Sources */,
 				B35BCE6122A279C3003C3983 /* FSLCommonSwitchItemViewModel.m in Sources */,
+				B34BB98F22B5F0B80060D61A /* FSLMomentItemViewModel.m in Sources */,
 				B35BCF6E22A291DA003C3983 /* TZPhotoPreviewCell.m in Sources */,
 				B31E082622A3C891009A69A4 /* FSLAccountLoginView.m in Sources */,
+				B34BBA0622B60C9E0060D61A /* FSLNotificationViewModel.m in Sources */,
 				B35BCEA022A28AA7003C3983 /* YYKeychain.m in Sources */,
 				B31E082822A3C891009A69A4 /* FSLMobileLoginView.m in Sources */,
 				B35BCE1322A261A0003C3983 /* FSLURLParameters.m in Sources */,
+				B34BB9B022B5F53F0060D61A /* NSMutableAttributedString+FSLMoment.m in Sources */,
+				B34BB96722B5EE640060D61A /* FSLHTTPService+Live.m in Sources */,
+				B34BBA1822B620070060D61A /* FSLEmotionViewModel.m in Sources */,
 				B35BCF6922A291DA003C3983 /* TZPhotoPreviewController.m in Sources */,
 				B35BCDBB22A233A6003C3983 /* FSLMonitorBaseView.m in Sources */,
+				B34BB99622B5F0B80060D61A /* FSLAddFriendsViewModel.m in Sources */,
 				B35BCEDA22A28CFB003C3983 /* FSLNewFeatureViewModel.m in Sources */,
 				B31E082F22A3CC9D009A69A4 /* NSString+Valid.m in Sources */,
 				B35BCED022A28CFB003C3983 /* FSLMobileLoginViewModel.m in Sources */,
 				B35BCD7F22A23103003C3983 /* FSLViewController.m in Sources */,
 				B31E08AD22A3FAE6009A69A4 /* FSLMainFrameViewController.m in Sources */,
 				B35BCF8022A299E6003C3983 /* FSLTabBarViewModel.m in Sources */,
+				B34BB9AF22B5F53F0060D61A /* FSLMoment.m in Sources */,
 				B35BCDB722A233A6003C3983 /* FSLWDataSourceMomery.m in Sources */,
 				B35BCED122A28CFB003C3983 /* FSLLoginBaseViewModel.m in Sources */,
 				B35BCF6B22A291DA003C3983 /* TZProgressView.m in Sources */,
 				B35BCED322A28CFB003C3983 /* FSLRegisterViewModel.m in Sources */,
 				B35BCF5F22A291DA003C3983 /* LCActionSheetCell.m in Sources */,
+				B34BB98C22B5F0B80060D61A /* FSLMomentViewModel.m in Sources */,
 				B35BCED922A28CFB003C3983 /* FSLLanguageViewModel.m in Sources */,
 				B35BCF6722A291DA003C3983 /* NSBundle+TZImagePicker.m in Sources */,
+				B34BB9F722B5FF5C0060D61A /* FSLFreeInterruptionItemViewModel.m in Sources */,
 				B35BCEAF22A28AE5003C3983 /* FSLControllerHelper.m in Sources */,
 				B35BCE5522A2790B003C3983 /* FSLCommonArrowItemViewModel.m in Sources */,
+				B34BBA2A22B622920060D61A /* FSLUserInfoViewModel.m in Sources */,
 				B35BCDDD22A23977003C3983 /* UIBarButtonItem+Extension.m in Sources */,
+				B34BB99522B5F0B80060D61A /* FSLDiscoverViewModel.m in Sources */,
 				B35BCF4E22A291DA003C3983 /* UIImage+ImageEffects.m in Sources */,
+				B34BB95D22B5ED550060D61A /* FSLMainFrameItemViewModel.m in Sources */,
+				B34BBA0022B5FF5C0060D61A /* FSLProfileViewModel.m in Sources */,
+				B34BBA1E22B6208C0060D61A /* FSLMoreEmotionViewModel.m in Sources */,
 				B35BCED522A28CFB003C3983 /* FSLZoneCodeViewModel.m in Sources */,
 				B35BCE0A22A26050003C3983 /* FSLHTTPService.m in Sources */,
 				B35BCED222A28CFB003C3983 /* FSLBootLoginViewModel.m in Sources */,
 				B35BCDF722A25DBC003C3983 /* FSLEXTRuntimeExtensions.m in Sources */,
 				B31E080622A3C1E1009A69A4 /* FSLMobileLoginViewController.m in Sources */,
+				B34BBA0C22B61D820060D61A /* FSLAccountSecurityViewModel.m in Sources */,
 				B35BCF5522A291DA003C3983 /* IDMPhotoBrowser.m in Sources */,
 				B35BCE2722A2666A003C3983 /* NSObject+Extension.m in Sources */,
 				B35BCE4122A27391003C3983 /* FSLCommonGroupViewModel.m in Sources */,
@@ -1798,12 +2315,15 @@
 				B35BCD8E22A232F1003C3983 /* FSLSegmentedControlController.m in Sources */,
 				B35BCE9F22A28AA7003C3983 /* YYThreadSafeDictionary.m in Sources */,
 				B35BCEA522A28AA7003C3983 /* YYReachability.m in Sources */,
+				B34BB9EF22B5FF5C0060D61A /* FSLMoreInfoViewModel.m in Sources */,
 				B31E08B622A3FB5D009A69A4 /* FSLDiscoverViewController.m in Sources */,
 				B35BCF5D22A291DA003C3983 /* TAAbstractDotView.m in Sources */,
+				B34BB9B222B5F53F0060D61A /* FSLMomentVideo.m in Sources */,
 				B35BCEAD22A28AE5003C3983 /* FSLPreferenceSettingHelper.m in Sources */,
 				B35BCF7D22A29999003C3983 /* FSLHomePageViewModel.m in Sources */,
 				B35BCE1022A26144003C3983 /* FSLHTTPRequest.m in Sources */,
 				B35BCD8222A2316E003C3983 /* FSLTableViewController.m in Sources */,
+				B34BB99822B5F0B80060D61A /* FSLSearchFriendsViewModel.m in Sources */,
 				B377312A22A11AC300E288EF /* main.m in Sources */,
 				B35BCE0D22A2610E003C3983 /* FSLKeyedSubscript.m in Sources */,
 				B35BCF6422A291DA003C3983 /* TZAssetCell.m in Sources */,
@@ -1813,6 +2333,9 @@
 				B35BCED822A28CFB003C3983 /* FSLCommitViewModel.m in Sources */,
 				B35BCF5622A291DA003C3983 /* IDMTapDetectingView.m in Sources */,
 				B35BCEA222A28AA7003C3983 /* YYFileHash.m in Sources */,
+				B34BB96622B5EE640060D61A /* FSLLiveInfo.m in Sources */,
+				B34BBA2722B621CA0060D61A /* FSLCommonProfileHeaderItemViewModel.m in Sources */,
+				B34BB9F122B5FF5C0060D61A /* FSLPrivacyViewModel.m in Sources */,
 				B35BCD7C22A230AD003C3983 /* FSLNavigationController.m in Sources */,
 				B35BCDE122A23A12003C3983 /* UIImage+Extension.m in Sources */,
 				B35BCD8522A231B4003C3983 /* FSLWebViewController.m in Sources */,
@@ -1820,8 +2343,11 @@
 				B35BCF7522A29754003C3983 /* LCActionSheet+Extension.m in Sources */,
 				B35BCE9E22A28AA7003C3983 /* YYWeakProxy.m in Sources */,
 				B35BCDEA22A25B1D003C3983 /* FSLViewModelServicesImpl.m in Sources */,
+				B34BB98E22B5F0B80060D61A /* FSLMomentCommentItemViewModel.m in Sources */,
 				B35BCF5722A291DA003C3983 /* SDCycleScrollView.m in Sources */,
 				B35BCDD522A23800003C3983 /* FBKVOController+Extension.m in Sources */,
+				B34BBA2D22B622F70060D61A /* FSLSettingViewModel.m in Sources */,
+				B34BB99022B5F0B80060D61A /* FSLMomentContentItemViewModel.m in Sources */,
 				B35BCDB422A233A6003C3983 /* FSLWDataSourceCPU.m in Sources */,
 				B35BCE2E22A2691C003C3983 /* FSLTableViewModel.m in Sources */,
 				B31E08B922A3FB72009A69A4 /* FSLProfileViewController.m in Sources */,
@@ -1832,17 +2358,23 @@
 				B35BCDBC22A233A6003C3983 /* UIView+Extend.m in Sources */,
 				B35BCE1822A263D9003C3983 /* FSLUser.m in Sources */,
 				B35BCE3E22A27355003C3983 /* FSLCommonItemViewModel.m in Sources */,
+				B34BB99422B5F0B80060D61A /* FSLProfileInfoViewModel.m in Sources */,
+				B34BB9AC22B5F53F0060D61A /* FSLPicture.m in Sources */,
 				B35BCE6422A27A2F003C3983 /* FSLCommonValueItemViewModel.m in Sources */,
+				B34BB99122B5F0B80060D61A /* FSLMomentPhotoItemViewModel.m in Sources */,
 				B35BCF5E22A291DA003C3983 /* LCActionSheetViewController.m in Sources */,
 				B35BCDFD22A25EBF003C3983 /* FSLHTTPResponse.m in Sources */,
 				B377311C22A11AC200E288EF /* AppDelegate.m in Sources */,
 				B35BCF6122A291DA003C3983 /* LCActionSheetConfig.m in Sources */,
 				B35BCEDE22A28DB3003C3983 /* FSLDebugTouchView.m in Sources */,
 				B35BCF4D22A291DA003C3983 /* YYPhotoGroupView.m in Sources */,
+				B34BB9B122B5F53F0060D61A /* FSLPictureMetadata.m in Sources */,
 				B35BCED422A28CFB003C3983 /* FSLAccountLoginViewModel.m in Sources */,
 				B35BCE0722A25FCC003C3983 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				B35BCF7022A291DA003C3983 /* TZLocationManager.m in Sources */,
+				B34BB9AB22B5F53F0060D61A /* FSLMomentShareInfo.m in Sources */,
 				B35BCEA422A28AA7003C3983 /* YYThreadSafeArray.m in Sources */,
+				B34BB98D22B5F0B80060D61A /* FSLMomentAttitudesItemViewModel.m in Sources */,
 				B31E080F22A3C1E1009A69A4 /* FSLLoginBaseViewController.m in Sources */,
 				B35BCE5E22A2798E003C3983 /* FSLCommonLabelItemViewModel.m in Sources */,
 				B31E083922A3D1BA009A69A4 /* UITextField+Extension.m in Sources */,

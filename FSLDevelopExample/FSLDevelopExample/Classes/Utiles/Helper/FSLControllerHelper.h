@@ -3,7 +3,7 @@
 //  WeChat
 //
 //  Created by senba on 2017/9/11.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  管理视图控制器的工具类
 
 #import <Foundation/Foundation.h>

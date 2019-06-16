@@ -69,7 +69,7 @@ static NSString * const FSLWebViewKVOEstimatedProgress = @"estimatedProgress";
     self.navigationItem.leftBarButtonItem = self.backItem;
     
     
-    ///CoderMikeHe FIXED: 切记 lightempty_ios 是前端跟H5商量的结果，请勿修改。
+    ///Fingal Liu FIXED: 切记 lightempty_ios 是前端跟H5商量的结果，请勿修改。
     NSString *userAgent = @"wechat_ios";
     
     if (!(FSLIOSVersion>=9.0)) [[NSUserDefaults standardUserDefaults] registerDefaults:@{@"userAgent":userAgent}];
@@ -79,7 +79,7 @@ static NSString * const FSLWebViewKVOEstimatedProgress = @"estimatedProgress";
     /// 这里可以注册JS的处理 涉及公司私有方法 这里笔者不作处理
     
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
-    // CoderMikeHe Fixed : 自适应屏幕宽度js
+    // Fingal Liu Fixed : 自适应屏幕宽度js
     NSString *jsString = @"var meta = document.createElement('meta'); meta.setAttribute('name', 'viewport'); meta.setAttribute('content', 'width=device-width'); document.getElementsByTagName('head')[0].appendChild(meta);";
     WKUserScript *userScript = [[WKUserScript alloc] initWithSource:jsString injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:YES];
     // 添加自适应屏幕宽度js调用的方法
@@ -106,7 +106,7 @@ static NSString * const FSLWebViewKVOEstimatedProgress = @"estimatedProgress";
     /// binding self.viewModel.avatarUrlString
     [_KVOController fsl_observe:self.webView keyPath:FSLWebViewKVOTitle block:^(id  _Nullable observer, id  _Nonnull object, NSDictionary<NSString *,id> * _Nonnull change) {
         @strongify(self);
-        /// CoderMikeHe FIXED: 这里只设置导航栏的title 以免self.title 设置了tabBarItem.title
+        /// Fingal Liu FIXED: 这里只设置导航栏的title 以免self.title 设置了tabBarItem.title
         if (!self.viewModel.shouldDisableWebViewTitle) self.navigationItem.title = self.webView.title;
     }];
     [_KVOController fsl_observe:self.webView keyPath:FSLWebViewKVOLoading block:^(id  _Nullable observer, id  _Nonnull object, NSDictionary<NSString *,id> * _Nonnull change) {
@@ -136,7 +136,7 @@ static NSString * const FSLWebViewKVOEstimatedProgress = @"estimatedProgress";
     }
     self.webView.scrollView.contentInset = self.contentInset;
     
-    /// CoderMikeHe: 适配 iPhone X + iOS 11，去掉安全区域
+    /// Fingal Liu: 适配 iPhone X + iOS 11，去掉安全区域
     if (@available(iOS 11.0, *)) {
         FSLAdjustsScrollViewInsets_Never(webView.scrollView);
     }

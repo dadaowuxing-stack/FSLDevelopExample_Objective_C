@@ -9,7 +9,7 @@
 #import "SAMKeychain+Util.h"
 /// 登录账号的key
 static NSString *const FSL_RAW_LOGIN = @"FSLRawLogin";
-static NSString *const FSL_SERVICE_NAME_IN_KEYCHAIN = @"com.CoderMikeHe.WeChat";
+static NSString *const FSL_SERVICE_NAME_IN_KEYCHAIN = @"com.Fingal Liu.WeChat";
 static NSString *const FSL_DEVICEID_ACCOUNT         = @"DeviceID";
 
 @implementation SAMKeychain (Util)

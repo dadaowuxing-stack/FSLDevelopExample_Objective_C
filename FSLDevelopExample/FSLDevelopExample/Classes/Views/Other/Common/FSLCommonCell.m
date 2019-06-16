@@ -157,7 +157,7 @@
 #pragma mark - 创建自控制器
 - (void)_setupSubViews{
     
-    /// CoderMikeHe Fixed : 这里需要把divider添加到self，而不是self.contentView ,由于添加了 accessView，导致self.contentView的宽度<self的宽度
+    /// Fingal Liu Fixed : 这里需要把divider添加到self，而不是self.contentView ,由于添加了 accessView，导致self.contentView的宽度<self的宽度
     // 分割线
     UIImageView *divider0 = [[UIImageView alloc] init];
     self.divider0 = divider0;

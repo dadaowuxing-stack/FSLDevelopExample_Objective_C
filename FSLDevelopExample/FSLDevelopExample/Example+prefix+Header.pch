@@ -12,6 +12,7 @@
 /// 系统or第三方框架
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import <YYText/YYText.h>
 #import <Masonry/Masonry.h>
 #import <Colours/Colours.h>
 #import <YYWebImage/YYWebImage.h>

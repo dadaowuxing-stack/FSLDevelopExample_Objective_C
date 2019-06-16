@@ -3,7 +3,7 @@
 //  WeChat
 //
 //  Created by senba on 2017/9/27.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Copyright © 2017年 Fingal Liu. All rights reserved.
 //  微信号、QQ号、邮箱登录
 
 #import <UIKit/UIKit.h>

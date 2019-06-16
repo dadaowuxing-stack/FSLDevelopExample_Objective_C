@@ -13,7 +13,7 @@
 #define IDMPhotoBrowserVersion  1.11.3
 
 /// IDMPhotoBrowser 内部被集成者修改标志位
-#define IDM_MODIFY_BY_CODERMIKEHE 1
+#define IDM_MODIFY_BY_FingalLiu 1
 
 
 #endif /* IDMPhotoBrowser_MH_h */

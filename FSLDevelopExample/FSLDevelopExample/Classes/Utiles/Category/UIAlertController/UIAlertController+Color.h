@@ -2,8 +2,8 @@
 //  UIAlertController+FSLColor.h
 //  WeChat
 //
-//  Created by CoderMikeHe on 2017/8/18.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Created by Fingal Liu on 2017/8/18.
+//  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

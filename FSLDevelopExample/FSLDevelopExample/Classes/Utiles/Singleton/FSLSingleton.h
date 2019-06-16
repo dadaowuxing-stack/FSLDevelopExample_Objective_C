@@ -7,7 +7,7 @@
 //
 
 /**
- *  CoderMikeHe
+ *  Fingal Liu
  *  用来快速单例化一个对象
  */
 

@@ -581,7 +581,7 @@ NSString * const ID = @"SDCycleScrollViewCell";
     
     if (!self.onlyDisplayText && [imagePath isKindOfClass:[NSString class]]) {
         if ([imagePath hasPrefix:@"http"]) {
-#if SD_MODIFY_BY_CODERMIKEHE
+#if SD_MODIFY_BY_FingalLiu
             [cell.imageView sd_setImageWithURL:[NSURL URLWithString:imagePath] placeholderImage:self.placeholderImage options:SDWebImageRetryFailed|SDWebImageContinueInBackground|SDWebImageAllowInvalidSSLCertificates completed:NULL];
 #else
             [cell.imageView sd_setImageWithURL:[NSURL URLWithString:imagePath] placeholderImage:self.placeholderImage];

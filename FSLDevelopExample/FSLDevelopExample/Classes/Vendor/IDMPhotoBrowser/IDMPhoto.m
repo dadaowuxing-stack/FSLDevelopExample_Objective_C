@@ -137,7 +137,7 @@ caption = _caption;
         } else if (_photoURL) {
             // Load async from web (using SDWebImageManager)
             
-#if IDM_MODIFY_BY_CODERMIKEHE
+#if IDM_MODIFY_BY_FingalLiu
             SDWebImageOptions options = SDWebImageRetryFailed|SDWebImageAllowInvalidSSLCertificates;
 #else
             SDWebImageOptions options = SDWebImageRetryFailed;

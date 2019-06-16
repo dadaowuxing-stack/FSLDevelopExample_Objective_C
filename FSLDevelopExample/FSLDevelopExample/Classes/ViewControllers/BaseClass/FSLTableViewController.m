@@ -96,7 +96,7 @@
 /// setup add `_su_` avoid sub class override it
 - (void)_su_setupSubViews{
     // set up tableView
-    /// CoderMikeHe FIXED: 纯代码布局，子类如果重新布局，建议用Masonry重新设置约束
+    /// Fingal Liu FIXED: 纯代码布局，子类如果重新布局，建议用Masonry重新设置约束
     FSLTableView *tableView = [[FSLTableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:self.viewModel.style];
     tableView.backgroundColor = FSL_MAIN_BACKGROUNDCOLOR;
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -118,7 +118,7 @@
     // 注册cell
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
     
-    /// CoderMikeHe FIXED: 这里需要强制布局一下界面，解决由于设置了tableView的contentInset，然而contentOffset始终是（0，0）的bug 但是这样会导致 tableView 刷新一次，从而导致子类在 viewDidLoad 无法及时注册的cell，从而会有Crash的隐患
+    /// Fingal Liu FIXED: 这里需要强制布局一下界面，解决由于设置了tableView的contentInset，然而contentOffset始终是（0，0）的bug 但是这样会导致 tableView 刷新一次，从而导致子类在 viewDidLoad 无法及时注册的cell，从而会有Crash的隐患
     //        [self.tableView layoutIfNeeded];
     //        [self.tableView setNeedsLayout];
     //        [self.tableView updateConstraintsIfNeeded];
@@ -165,7 +165,7 @@
     
     
     if (@available(iOS 11.0, *)) {
-        /// CoderMikeHe: 适配 iPhone X + iOS 11，
+        /// Fingal Liu: 适配 iPhone X + iOS 11，
         FSLAdjustsScrollViewInsets_Never(tableView);
         /// iOS 11上发生tableView顶部有留白，原因是代码中只实现了heightForHeaderInSection方法，而没有实现viewForHeaderInSection方法。那样写是不规范的，只实现高度，而没有实现view，但代码这样写在iOS 11之前是没有问题的，iOS 11之后应该是由于开启了估算行高机制引起了bug。
         tableView.estimatedRowHeight = 0;
@@ -242,7 +242,7 @@
 #pragma mark - 辅助方法
 - (void)_requestDataCompleted{
     NSUInteger count = self.viewModel.dataSource.count;
-    /// CoderMikeHe Fixed: 这里必须要等到，底部控件结束刷新后，再来设置无更多数据，否则被叠加无效
+    /// Fingal Liu Fixed: 这里必须要等到，底部控件结束刷新后，再来设置无更多数据，否则被叠加无效
     if (self.viewModel.shouldEndRefreshingWithNoMoreData && count%self.viewModel.perPage) [self.tableView.mj_footer endRefreshingWithNoMoreData];
 }
 

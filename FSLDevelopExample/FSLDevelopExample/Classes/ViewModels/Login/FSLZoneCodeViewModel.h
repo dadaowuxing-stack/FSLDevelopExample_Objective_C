@@ -3,7 +3,7 @@
 //  WeChat
 //
 //  Created by senba on 2017/9/28.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 
 #import "FSLTableViewModel.h"

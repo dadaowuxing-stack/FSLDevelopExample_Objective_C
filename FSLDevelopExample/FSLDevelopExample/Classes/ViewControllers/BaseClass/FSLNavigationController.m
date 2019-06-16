@@ -146,7 +146,7 @@
         
         /// eg: [A push B]
         /// 1.取出当前的控制器的title ， 也就是取出 A.title
-        /// CoderMikeHe Fixed: [[self topViewController] navigationItem].title 这样来获取title 而不是[[self topViewController] title]
+        /// Fingal Liu Fixed: [[self topViewController] navigationItem].title 这样来获取title 而不是[[self topViewController] title]
         title = [[self topViewController] navigationItem].title?:@"返回";
         
         /// 2.判断要被Push的控制器（B）是否是 FSLViewController ，

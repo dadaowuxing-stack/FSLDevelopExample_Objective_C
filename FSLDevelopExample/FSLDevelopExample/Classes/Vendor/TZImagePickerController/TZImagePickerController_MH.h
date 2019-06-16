@@ -13,6 +13,6 @@
 #define TZImagePickerControllerVersion  1.9.2
 
 /// TZImagePickerController 内部被集成者修改标志位
-#define TZ_MODIFY_BY_CODERMIKEHE 1
+#define TZ_MODIFY_BY_FingalLiu 1
 
 #endif /* TZImagePickerController_MH_h */

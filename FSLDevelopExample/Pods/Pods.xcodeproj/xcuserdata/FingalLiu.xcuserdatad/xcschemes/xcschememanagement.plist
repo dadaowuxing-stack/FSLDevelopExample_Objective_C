@@ -158,19 +158,26 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
-		<key>YYWebImage.xcscheme</key>
+		<key>YYText.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
-		<key>ZYCornerRadius.xcscheme</key>
+		<key>YYWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>24</integer>
+		</dict>
+		<key>ZYCornerRadius.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>25</integer>
 		</dict>
 		<key>pop.xcscheme</key>
 		<dict>

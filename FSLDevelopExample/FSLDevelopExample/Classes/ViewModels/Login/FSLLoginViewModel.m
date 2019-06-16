@@ -3,7 +3,7 @@
 //  WeChat
 //
 //  Created by senba on 2017/9/26.
-//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  Copyright © 2017年 Fingal Liu. All rights reserved.
 //
 
 #import "FSLLoginViewModel.h"
@@ -129,7 +129,7 @@
             /// 假设是这里统一都是qq号码登录
             user.qq = self.account;
             user.email = [NSString stringWithFormat:@"%@@qq.com",user.qq];       // PS：机智，拼接成QQ邮箱
-            user.wechatId = @"codermikehe";             // PS：瞎写的
+            user.wechatId = @"Fingal Liu";             // PS：瞎写的
             user.phone = @"13874385438";                // PS：瞎写的
             user.channel = FSLUserLoginChannelTypeQQ;    // QQ登录
             [subscriber sendNext:user];
